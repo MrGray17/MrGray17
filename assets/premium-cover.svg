@@ -1,6 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-label="MrGray17 portfolio cover">
 <style>
 @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+.display{font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif;font-weight:900;font-stretch:condensed;letter-spacing:-5px}
+.meta{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-weight:700;letter-spacing:.7px}
+.ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:800;letter-spacing:-.4px}
+.editorial{font-family:Georgia,"Times New Roman",serif;font-style:italic}
 </style>
 <defs>
   <linearGradient id="orbA" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B6FF4A"/><stop offset="1" stop-color="#55D6FF"/></linearGradient>
@@ -11,21 +15,21 @@
 <line x1="26" y1="108" x2="1174" y2="108" stroke="#111111" stroke-width="4"/>
 <line x1="816" y1="108" x2="816" y2="674" stroke="#111111" stroke-width="4"/>
 
-<text x="52" y="78" font-family="Courier New,monospace" font-size="20" font-weight="700" fill="#111111">MRGRAY17 / PORTFOLIO 2026</text>
-<text x="1138" y="78" text-anchor="end" font-family="Courier New,monospace" font-size="20" font-weight="700" fill="#111111">00—05</text>
+<text class="meta" x="52" y="78" font-size="18" fill="#111111">MRGRAY17 / PORTFOLIO 2026</text>
+<text class="meta" x="1138" y="78" text-anchor="end" font-size="18" fill="#111111">00—05</text>
 
-<text x="48" y="308" font-family="Impact,Arial Black,sans-serif" font-size="180" letter-spacing="-6" fill="#111111">MR</text>
-<text x="44" y="474" font-family="Impact,Arial Black,sans-serif" font-size="180" letter-spacing="-7" fill="#111111">GRAY17</text>
-<text x="54" y="526" font-family="Georgia,serif" font-size="28" font-style="italic" fill="#111111">El Yazid Hammoubel</text>
-<text x="54" y="570" font-family="Courier New,monospace" font-size="22" font-weight="700" fill="#111111">BACKEND / SYSTEMS / AI</text>
+<text class="display" x="48" y="308" font-size="176" fill="#111111">MR</text>
+<text class="display" x="44" y="474" font-size="176" fill="#111111">GRAY17</text>
+<text class="editorial" x="54" y="526" font-size="28" fill="#111111">El Yazid Hammoubel</text>
+<text class="meta" x="54" y="570" font-size="20" fill="#111111">BACKEND / SYSTEMS / AI</text>
 
 <circle cx="973" cy="267" r="150" fill="url(#orbA)" opacity="0.82"><animate attributeName="cy" values="267;247;267" dur="7s" repeatCount="indefinite"/></circle>
 <circle cx="1054" cy="472" r="112" fill="url(#orbB)" opacity="0.78"><animate attributeName="cx" values="1054;1028;1054" dur="8s" repeatCount="indefinite"/></circle>
 
 <rect x="846" y="150" width="290" height="390" rx="26" fill="#FFFFFF" fill-opacity="0.72" stroke="#111111" stroke-width="3"/>
-<text x="874" y="194" font-family="Courier New,monospace" font-size="16" font-weight="700" fill="#111111">CONTENTS</text>
+<text class="meta" x="874" y="194" font-size="14" fill="#111111">CONTENTS</text>
 <line x1="874" y1="214" x2="1108" y2="214" stroke="#111111" stroke-width="2"/>
-<g font-family="Arial,sans-serif" font-size="21" font-weight="800" fill="#111111">
+<g class="ui" font-size="20" fill="#111111">
   <text x="874" y="258">01  OPENTOKEN</text>
   <text x="874" y="302">02  RATE LIMITER</text>
   <text x="874" y="346">03  MAW3ID</text>
@@ -33,7 +37,7 @@
   <text x="874" y="434">05  ARCADE</text>
 </g>
 <line x1="874" y1="464" x2="1108" y2="464" stroke="#111111" stroke-width="2"/>
-<text x="874" y="502" font-family="Courier New,monospace" font-size="15" font-weight="700" fill="#111111">GITHUB.COM/MRGRAY17</text>
+<text class="meta" x="874" y="502" font-size="13" fill="#111111">GITHUB.COM/MRGRAY17</text>
 
 <g transform="translate(1078 582)">
   <circle r="48" fill="#111111"/>
@@ -41,7 +45,7 @@
   <path d="M0-20L6-6 20 0 6 6 0 20-6 6-20 0-6-6Z" fill="#FF5CA8"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/></path>
 </g>
 
-<text x="54" y="640" font-family="Courier New,monospace" font-size="16" font-weight="700" fill="#111111">SCROLL TO ENTER ↓</text>
+<text class="meta" x="54" y="640" font-size="14" fill="#111111">SCROLL TO ENTER ↓</text>
 <rect x="238" y="622" width="220" height="22" fill="#B6FF4A" stroke="#111111" stroke-width="3"/>
 <rect x="468" y="622" width="110" height="22" fill="#FF5CA8" stroke="#111111" stroke-width="3"/>
 <rect x="588" y="622" width="170" height="22" fill="#55D6FF" stroke="#111111" stroke-width="3"/>
