@@ -36,36 +36,16 @@
 
 ## `03 // selected systems`
 
-<table>
-<tr>
-<td width="50%" align="center">
-  <a href="https://github.com/MrGray17/opentoken">
-    <img src="./assets/project-opentoken.svg" width="100%" alt="OpenToken project card" />
-  </a>
-</td>
-<td width="50%" align="center">
-  <a href="https://github.com/MrGray17/rate-limiter">
-    <img src="./assets/project-rate-limiter.svg" width="100%" alt="Rate Limiter project card" />
-  </a>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-  <a href="https://github.com/MrGray17/Maw3id">
-    <img src="./assets/project-maw3id.svg" width="100%" alt="Maw3id project card" />
-  </a>
-</td>
-<td width="50%" align="center">
-  <a href="https://github.com/MrGray17/jira-ai-agent">
-    <img src="./assets/project-jira.svg" width="100%" alt="Jira AI Agent project card" />
-  </a>
-</td>
-</tr>
-</table>
-
 <p align="center">
-  <sub>Click any panel to inspect the repository.</sub>
+  <a href="https://github.com/MrGray17/opentoken"><img src="./assets/project-opentoken.svg" width="49%" alt="OpenToken project card" /></a>
+  <a href="https://github.com/MrGray17/rate-limiter"><img src="./assets/project-rate-limiter.svg" width="49%" alt="Rate Limiter project card" /></a>
 </p>
+<p align="center">
+  <a href="https://github.com/MrGray17/Maw3id"><img src="./assets/project-maw3id.svg" width="49%" alt="Maw3id project card" /></a>
+  <a href="https://github.com/MrGray17/jira-ai-agent"><img src="./assets/project-jira.svg" width="49%" alt="Jira AI Agent project card" /></a>
+</p>
+
+<p align="center"><sub>Each panel is a clickable custom SVG — no generic pinned-repo widget.</sub></p>
 
 <br/>
 
@@ -112,5 +92,5 @@
 <p align="center">
   <code>build → break → understand → rebuild</code>
   <br/><br/>
-  <sub>Custom SVG system · generated contribution animations · no paid README skin dependency.</sub>
+  <sub>Custom animated SVG system · generated contribution games · no paid README skin dependency.</sub>
 </p>
