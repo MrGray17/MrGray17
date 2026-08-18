@@ -1,40 +1,24 @@
 <p align="center">
-  <img src="./assets/wordmark.svg" width="100%" alt="MrGray17 animated wordmark" />
+  <img src="./assets/wordmark.svg" width="100%" alt="MRGRAY17 neo brutalist wordmark" />
 </p>
 
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="MrGray17 animated systems hero" />
+  <img src="./assets/hero.svg" width="100%" alt="MrGray17 neo brutalist profile hero" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/MrGray17?tab=repositories"><b>repositories</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/MrGray17/opentoken"><b>OpenToken</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/MrGray17/rate-limiter"><b>Rate Limiter</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/MrGray17/Maw3id"><b>Maw3id</b></a>
+  <a href="https://github.com/MrGray17?tab=repositories"><b>ALL REPOSITORIES</b></a>
+  &nbsp;&nbsp;◆&nbsp;&nbsp;
+  <a href="https://github.com/MrGray17/opentoken"><b>OPENTOKEN</b></a>
+  &nbsp;&nbsp;◆&nbsp;&nbsp;
+  <a href="https://github.com/MrGray17/rate-limiter"><b>RATE LIMITER</b></a>
+  &nbsp;&nbsp;◆&nbsp;&nbsp;
+  <a href="https://github.com/MrGray17/Maw3id"><b>MAW3ID</b></a>
 </p>
 
 <br/>
 
-## `01 // engineering telemetry`
-
-<p align="center">
-  <img src="./assets/stats.svg" width="100%" alt="Engineering telemetry" />
-</p>
-
-<br/>
-
-## `02 // working stack`
-
-<p align="center">
-  <img src="./assets/stack.svg" width="100%" alt="Working stack" />
-</p>
-
-<br/>
-
-## `03 // selected systems`
+<h2 align="center">PROJECTS // OPEN THE BOXES</h2>
 
 <p align="center">
   <a href="https://github.com/MrGray17/opentoken"><img src="./assets/project-opentoken.svg" width="49%" alt="OpenToken project card" /></a>
@@ -45,11 +29,25 @@
   <a href="https://github.com/MrGray17/jira-ai-agent"><img src="./assets/project-jira.svg" width="49%" alt="Jira AI Agent project card" /></a>
 </p>
 
-<p align="center"><sub>Each panel is a clickable custom SVG — no generic pinned-repo widget.</sub></p>
+<br/>
+
+<h2 align="center">NOW BUILDING</h2>
+
+<p align="center">
+  <img src="./assets/stats.svg" width="100%" alt="Current build" />
+</p>
 
 <br/>
 
-## `04 // contribution arcade`
+<h2 align="center">TOOLBOX</h2>
+
+<p align="center">
+  <img src="./assets/stack.svg" width="100%" alt="Working stack" />
+</p>
+
+<br/>
+
+<h2 align="center">CONTRIBUTION ARCADE</h2>
 
 <p align="center">
   <img src="./space-shooter.gif" width="100%" alt="Contribution Space Shooter" />
@@ -65,32 +63,16 @@
 
 <br/>
 
-## `05 // strategy replay`
+<h2 align="center">BUILD RULES</h2>
 
 <p align="center">
-  <img src="./assets/chess.svg" width="100%" alt="Decorative animated chess replay" />
-</p>
-
-<br/>
-
-## `06 // signal over noise`
-
-<p align="center">
-  <img src="./assets/highlights.svg" width="100%" alt="Engineering highlights" />
-</p>
-
-<br/>
-
-## `07 // system scan`
-
-<p align="center">
-  <img src="./assets/system-scan.svg" width="100%" alt="Animated system scan" />
+  <img src="./assets/highlights.svg" width="100%" alt="Engineering principles" />
 </p>
 
 <br/>
 
 <p align="center">
-  <code>build → break → understand → rebuild</code>
-  <br/><br/>
-  <sub>Custom animated SVG system · generated contribution games · no paid README skin dependency.</sub>
+  <a href="https://github.com/MrGray17?tab=repositories">
+    <img src="./assets/system-scan.svg" width="100%" alt="Profile footer" />
+  </a>
 </p>
