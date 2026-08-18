@@ -51,5 +51,5 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MrGray17?tab=repositories"><img src="./assets/premium-footer.svg" width="100%" alt="MrGray17 repositories" /></a>
+  <img src="./assets/premium-footer.svg" width="100%" alt="End of portfolio — source and activity below" />
 </p>
