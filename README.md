@@ -86,7 +86,7 @@ Network-security project focused on detecting port-scanning behavior.
 ## `./contribution_arcade`
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MrGray17/MrGray17/output/space-shooter.gif" width="100%" alt="Contribution Space Shooter"/>
+  <img src="./space-shooter.gif" width="100%" alt="Contribution Space Shooter"/>
 </p>
 
 <p align="center">
