@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Contribution arcade scene">
+  <rect width="1200" height="260" fill="#111111"/>
+  <rect x="26" y="26" width="1148" height="208" fill="none" stroke="#B6FF4A" stroke-width="4"/>
+  <text x="52" y="76" font-family="Courier New, monospace" font-size="18" font-weight="700" fill="#B6FF4A">05 / CONTRIBUTIONS</text>
+  <text x="50" y="162" font-family="Impact, Arial Black, sans-serif" font-size="72" fill="#F4F0E8">ARCADE BREAK</text>
+  <text x="54" y="202" font-family="Courier New, monospace" font-size="17" font-weight="700" fill="#55D6FF">SPACE SHOOTER / SNAKE</text>
+
+  <g transform="translate(1010 130)">
+    <path d="M-34 24 L0-34 L34 24 L13 18 L0 38 L-13 18 Z" fill="#FF5CA8" stroke="#F4F0E8" stroke-width="4">
+      <animateTransform attributeName="transform" type="translate" values="-42 0;42 0;-42 0" dur="4.2s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="0" cy="54" r="7" fill="#FFD84D">
+      <animate attributeName="cy" values="54;-80" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
