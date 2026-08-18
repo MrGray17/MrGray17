@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/mobile-cover.svg" />
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/MrGray17/MrGray17/main/assets/mobile-cover.svg" />
     <img src="./assets/premium-cover.svg" width="100%" alt="MrGray17 — El Yazid Hammoubel" />
   </picture>
 </p>
@@ -15,7 +15,7 @@
 <a id="work"></a>
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/mobile-index.svg" />
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/MrGray17/MrGray17/main/assets/mobile-index.svg" />
     <img src="./assets/premium-index.svg" width="100%" alt="Portfolio route" />
   </picture>
 </p>
@@ -23,7 +23,7 @@
 <p align="center">
   <a href="https://github.com/MrGray17/opentoken">
     <picture>
-      <source media="(max-width: 600px)" srcset="./assets/mobile-opentoken.svg" />
+      <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/MrGray17/MrGray17/main/assets/mobile-opentoken.svg" />
       <img src="./assets/premium-opentoken.svg" width="100%" alt="OpenToken — token compression for AI coding agents" />
     </picture>
   </a>
@@ -32,7 +32,7 @@
 <p align="center">
   <a href="https://github.com/MrGray17/rate-limiter">
     <picture>
-      <source media="(max-width: 600px)" srcset="./assets/mobile-rate-limiter.svg" />
+      <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/MrGray17/MrGray17/main/assets/mobile-rate-limiter.svg" />
       <img src="./assets/premium-rate-limiter.svg" width="100%" alt="Rate Limiter — HTTP rate limiting from first principles" />
     </picture>
   </a>
@@ -41,7 +41,7 @@
 <p align="center">
   <a href="https://github.com/MrGray17/Maw3id">
     <picture>
-      <source media="(max-width: 600px)" srcset="./assets/mobile-maw3id.svg" />
+      <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/MrGray17/MrGray17/main/assets/mobile-maw3id.svg" />
       <img src="./assets/premium-maw3id.svg" width="100%" alt="Maw3id — medical queue and appointment management" />
     </picture>
   </a>
@@ -50,7 +50,7 @@
 <a id="stack"></a>
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/mobile-stack.svg" />
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/MrGray17/MrGray17/main/assets/mobile-stack.svg" />
     <img src="./assets/premium-stack.svg" width="100%" alt="Technology backstage" />
   </picture>
 </p>
@@ -58,7 +58,7 @@
 <a id="arcade"></a>
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/mobile-arcade.svg" />
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/MrGray17/MrGray17/main/assets/mobile-arcade.svg" />
     <img src="./assets/premium-arcade.svg" width="100%" alt="Contribution arcade" />
   </picture>
 </p>
@@ -77,7 +77,7 @@
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/mobile-footer.svg" />
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/MrGray17/MrGray17/main/assets/mobile-footer.svg" />
     <img src="./assets/premium-footer.svg" width="100%" alt="End of portfolio — source and activity below" />
   </picture>
 </p>
