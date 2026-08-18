@@ -1,47 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-label="Technology stack scene">
-  <defs>
-    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.80"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.34"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="500" fill="#E9E2FF"/>
-  <circle cx="1050" cy="86" r="110" fill="#55D6FF" opacity="0.65"/>
-  <circle cx="938" cy="426" r="144" fill="#FF5CA8" opacity="0.48"/>
-  <circle cx="150" cy="420" r="120" fill="#B6FF4A" opacity="0.60"/>
-  <rect x="26" y="26" width="1148" height="448" fill="none" stroke="#111111" stroke-width="5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="Animated technology backstage scene">
+<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<defs><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.82"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.34"/></linearGradient></defs>
+<rect width="1200" height="520" fill="#E9E2FF"/>
+<circle cx="1052" cy="92" r="112" fill="#55D6FF" opacity="0.65"/><circle cx="958" cy="430" r="144" fill="#FF5CA8" opacity="0.48"/><circle cx="156" cy="430" r="124" fill="#B6FF4A" opacity="0.62"/>
+<rect x="26" y="26" width="1148" height="468" fill="none" stroke="#111111" stroke-width="5"/>
+<text x="52" y="78" font-family="Courier New,monospace" font-size="17" font-weight="700" fill="#111111">04 / BACKSTAGE</text>
+<text x="50" y="150" font-family="Impact,Arial Black,sans-serif" font-size="70" fill="#111111">STACK</text>
+<text x="54" y="184" font-family="Georgia,serif" font-size="21" font-style="italic" fill="#111111">Current working set</text>
 
-  <text x="52" y="82" font-family="Courier New, monospace" font-size="18" font-weight="700" fill="#111111">04 / STACK</text>
-  <text x="50" y="154" font-family="Impact, Arial Black, sans-serif" font-size="70" fill="#111111">WORKING SET</text>
+<g stroke="#111111" stroke-width="4">
+<rect x="52" y="214" width="350" height="112" rx="18" fill="url(#glass)"/><rect x="420" y="214" width="320" height="112" rx="18" fill="url(#glass)"/><rect x="758" y="214" width="390" height="112" rx="18" fill="url(#glass)"/>
+<rect x="52" y="344" width="520" height="106" rx="18" fill="url(#glass)"/><rect x="590" y="344" width="558" height="106" rx="18" fill="url(#glass)"/>
+</g>
+<g font-family="Courier New,monospace" fill="#111111"><text x="76" y="246" font-size="13" font-weight="700">LANGUAGES</text><text x="76" y="288" font-size="20" font-weight="700">TypeScript · JavaScript · C++</text><text x="444" y="246" font-size="13" font-weight="700">BACKEND</text><text x="444" y="288" font-size="20" font-weight="700">Node.js · Express</text><text x="782" y="246" font-size="13" font-weight="700">FRONTEND</text><text x="782" y="288" font-size="20" font-weight="700">React · Vite · MapLibre</text><text x="76" y="376" font-size="13" font-weight="700">DATA / PROTOCOLS</text><text x="76" y="416" font-size="20" font-weight="700">PostgreSQL · HTTP</text><text x="614" y="376" font-size="13" font-weight="700">AI TOOLING</text><text x="614" y="416" font-size="20" font-weight="700">MCP · LLM tooling · Bun</text></g>
 
-  <g stroke="#111111" stroke-width="4">
-    <rect x="52" y="190" width="354" height="120" rx="18" fill="url(#glass)"/>
-    <rect x="424" y="190" width="316" height="120" rx="18" fill="url(#glass)"/>
-    <rect x="758" y="190" width="390" height="120" rx="18" fill="url(#glass)"/>
-    <rect x="52" y="328" width="520" height="110" rx="18" fill="url(#glass)"/>
-    <rect x="590" y="328" width="558" height="110" rx="18" fill="url(#glass)"/>
-  </g>
+<path d="M400 270 C438 250 450 270 480 270 M738 270 C772 250 786 270 820 270 M570 396 C608 380 620 396 652 396" fill="none" stroke="#111111" stroke-width="3" stroke-dasharray="7 8"/>
+<circle cx="402" cy="270" r="7" fill="#111111"><animateMotion dur="4.5s" repeatCount="indefinite" path="M0 0 C36 -20 50 0 78 0"/></circle>
+<circle cx="740" cy="270" r="7" fill="#111111"><animateMotion dur="5s" repeatCount="indefinite" path="M0 0 C32 -20 48 0 80 0"/></circle>
+<circle cx="572" cy="396" r="7" fill="#111111"><animateMotion dur="5.4s" repeatCount="indefinite" path="M0 0 C36 -16 50 0 80 0"/></circle>
 
-  <g font-family="Courier New, monospace" fill="#111111">
-    <text x="76" y="225" font-size="15" font-weight="700">LANGUAGES</text>
-    <text x="76" y="268" font-size="22" font-weight="700">TypeScript · JavaScript · C++</text>
-
-    <text x="448" y="225" font-size="15" font-weight="700">BACKEND</text>
-    <text x="448" y="268" font-size="22" font-weight="700">Node.js · Express</text>
-
-    <text x="782" y="225" font-size="15" font-weight="700">FRONTEND</text>
-    <text x="782" y="268" font-size="22" font-weight="700">React · Vite · MapLibre</text>
-
-    <text x="76" y="362" font-size="15" font-weight="700">DATA / PROTOCOLS</text>
-    <text x="76" y="405" font-size="22" font-weight="700">PostgreSQL · HTTP</text>
-
-    <text x="614" y="362" font-size="15" font-weight="700">AI TOOLING</text>
-    <text x="614" y="405" font-size="22" font-weight="700">MCP · LLM tooling · Bun</text>
-  </g>
-
-  <g>
-    <circle cx="1120" cy="82" r="10" fill="#111111">
-      <animateMotion dur="5s" repeatCount="indefinite" path="M0 0 C-120 40 -180 120 -250 70 S-390 -20 -470 55"/>
-    </circle>
-  </g>
+<rect x="26" y="472" width="1148" height="22" fill="#111111"/>
+<text x="1126" y="489" text-anchor="end" font-family="Courier New,monospace" font-size="12" font-weight="700" fill="#55D6FF">NEXT / 05 ↓</text>
 </svg>
