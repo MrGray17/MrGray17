@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-label="MrGray17 premium portfolio cover">
+  <defs>
+    <linearGradient id="orb1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C5CFC"/>
+      <stop offset="1" stop-color="#FF5CA8"/>
+    </linearGradient>
+    <linearGradient id="orb2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B6FF4A"/>
+      <stop offset="1" stop-color="#55D6FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="#F4F0E8"/>
+  <rect x="26" y="26" width="1148" height="648" fill="none" stroke="#111111" stroke-width="6"/>
+  <line x1="26" y1="108" x2="1174" y2="108" stroke="#111111" stroke-width="4"/>
+  <line x1="820" y1="108" x2="820" y2="674" stroke="#111111" stroke-width="4"/>
+
+  <text x="52" y="78" font-family="Courier New, monospace" font-size="20" font-weight="700" fill="#111111">MRGRAY17 / INDEX 2026</text>
+  <text x="1138" y="78" text-anchor="end" font-family="Courier New, monospace" font-size="20" font-weight="700" fill="#111111">01—07</text>
+
+  <text x="52" y="300" font-family="Impact, Arial Black, sans-serif" font-size="176" letter-spacing="-5" fill="#111111">MR</text>
+  <text x="48" y="468" font-family="Impact, Arial Black, sans-serif" font-size="176" letter-spacing="-6" fill="#111111">GRAY17</text>
+
+  <text x="56" y="526" font-family="Georgia, serif" font-size="28" font-style="italic" fill="#111111">El Yazid Hammoubel</text>
+  <text x="56" y="570" font-family="Courier New, monospace" font-size="22" font-weight="700" fill="#111111">BACKEND / SYSTEMS / AI</text>
+
+  <circle cx="997" cy="286" r="150" fill="url(#orb1)" opacity="0.88">
+    <animate attributeName="cy" values="286;268;286" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="921" cy="470" r="118" fill="url(#orb2)" opacity="0.86">
+    <animate attributeName="cx" values="921;948;921" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="860" y="178" width="260" height="330" rx="26" fill="#FFFFFF" fill-opacity="0.62" stroke="#111111" stroke-width="3"/>
+  <text x="890" y="224" font-family="Courier New, monospace" font-size="17" font-weight="700" fill="#111111">SELECTED WORK</text>
+  <line x1="890" y1="244" x2="1090" y2="244" stroke="#111111" stroke-width="2"/>
+  <text x="890" y="292" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#111111">01  OPENTOKEN</text>
+  <text x="890" y="342" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#111111">02  RATE LIMITER</text>
+  <text x="890" y="392" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#111111">03  MAW3ID</text>
+  <line x1="890" y1="424" x2="1090" y2="424" stroke="#111111" stroke-width="2"/>
+  <text x="890" y="463" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#111111">GITHUB.COM/MRGRAY17</text>
+
+  <g transform="translate(1078 564)">
+    <circle r="54" fill="#111111"/>
+    <circle r="32" fill="#F4F0E8"/>
+    <path d="M0-22 L6-6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6-6 Z" fill="#FF5CA8">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <rect x="52" y="625" width="240" height="24" fill="#B6FF4A" stroke="#111111" stroke-width="3"/>
+  <rect x="304" y="625" width="110" height="24" fill="#FF5CA8" stroke="#111111" stroke-width="3"/>
+  <rect x="426" y="625" width="170" height="24" fill="#55D6FF" stroke="#111111" stroke-width="3"/>
+</svg>
