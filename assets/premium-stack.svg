@@ -6,57 +6,19 @@
 .ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:750;letter-spacing:-.25px}
 .editorial{font-family:Georgia,"Times New Roman",serif;font-style:italic}
 </style>
-<defs>
-  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.86"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.32"/></linearGradient>
-  <filter id="soft"><feGaussianBlur stdDeviation="16"/></filter>
-</defs>
-<rect width="1200" height="620" fill="#E9E2FF"/>
-<circle cx="1080" cy="90" r="128" fill="#55D6FF" opacity="0.54" filter="url(#soft)"/>
-<circle cx="160" cy="540" r="144" fill="#B6FF4A" opacity="0.42" filter="url(#soft)"/>
-<circle cx="995" cy="520" r="120" fill="#FF5CA8" opacity="0.34" filter="url(#soft)"/>
+<defs><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.86"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.32"/></linearGradient><filter id="soft"><feGaussianBlur stdDeviation="16"/></filter></defs>
+<rect width="1200" height="620" fill="#E9E2FF"/><circle cx="1080" cy="90" r="128" fill="#55D6FF" opacity="0.54" filter="url(#soft)"/><circle cx="160" cy="540" r="144" fill="#B6FF4A" opacity="0.42" filter="url(#soft)"/><circle cx="995" cy="520" r="120" fill="#FF5CA8" opacity="0.34" filter="url(#soft)"/>
 <rect x="26" y="26" width="1148" height="568" fill="none" stroke="#111111" stroke-width="5"/>
 <text class="meta" x="52" y="76" font-size="15" fill="#111111">04 / BACKSTAGE</text>
-<text class="display" x="50" y="150" font-size="68" fill="#111111">WORKING SET</text>
+<text class="display" x="50" y="150" font-size="68" textLength="505" lengthAdjust="spacingAndGlyphs" fill="#111111">WORKING SET</text>
 <text class="editorial" x="54" y="184" font-size="20" fill="#111111">Current tools, shown as the paths they actually form</text>
-
 <text class="meta" x="54" y="238" font-size="11" fill="#111111">APP PATH</text>
-<g stroke="#111111" stroke-width="4" fill="url(#glass)">
-  <rect x="54" y="258" width="240" height="104" rx="18"/>
-  <rect x="356" y="258" width="148" height="104" rx="18"/>
-  <rect x="566" y="258" width="238" height="104" rx="18"/>
-  <rect x="866" y="258" width="258" height="104" rx="18"/>
-</g>
-<g fill="#111111">
-  <text class="meta" x="78" y="292" font-size="10">CLIENT</text><text class="ui" x="78" y="330" font-size="19">React · Vite</text><text class="ui" x="78" y="352" font-size="14">MapLibre</text>
-  <text class="meta" x="380" y="292" font-size="10">PROTOCOL</text><text class="ui" x="392" y="333" font-size="22">HTTP</text>
-  <text class="meta" x="590" y="292" font-size="10">API</text><text class="ui" x="590" y="330" font-size="19">Node.js</text><text class="ui" x="590" y="352" font-size="14">Express</text>
-  <text class="meta" x="890" y="292" font-size="10">DATA</text><text class="ui" x="890" y="333" font-size="20">PostgreSQL</text>
-</g>
-<path d="M294 310 H356 M504 310 H566 M804 310 H866" fill="none" stroke="#111111" stroke-width="4"/>
-<g class="motion" fill="#FF5CA8" stroke="#111111" stroke-width="3">
-  <circle r="9"><animateMotion dur="3.2s" repeatCount="indefinite" path="M294 310 H356"/></circle>
-  <circle r="9"><animateMotion dur="3.8s" repeatCount="indefinite" path="M504 310 H566"/></circle>
-  <circle r="9"><animateMotion dur="4.2s" repeatCount="indefinite" path="M804 310 H866"/></circle>
-</g>
-
+<g stroke="#111111" stroke-width="4" fill="url(#glass)"><rect x="54" y="258" width="240" height="104" rx="18"/><rect x="356" y="258" width="148" height="104" rx="18"/><rect x="566" y="258" width="238" height="104" rx="18"/><rect x="866" y="258" width="258" height="104" rx="18"/></g>
+<g fill="#111111"><text class="meta" x="78" y="292" font-size="10">CLIENT</text><text class="ui" x="78" y="330" font-size="19">React · Vite</text><text class="ui" x="78" y="352" font-size="14">MapLibre</text><text class="meta" x="380" y="292" font-size="10">PROTOCOL</text><text class="ui" x="392" y="333" font-size="22">HTTP</text><text class="meta" x="590" y="292" font-size="10">API</text><text class="ui" x="590" y="330" font-size="19">Node.js</text><text class="ui" x="590" y="352" font-size="14">Express</text><text class="meta" x="890" y="292" font-size="10">DATA</text><text class="ui" x="890" y="333" font-size="20">PostgreSQL</text></g>
+<path d="M294 310 H356 M504 310 H566 M804 310 H866" fill="none" stroke="#111111" stroke-width="4"/><g class="motion" fill="#FF5CA8" stroke="#111111" stroke-width="3"><circle r="9"><animateMotion dur="3.2s" repeatCount="indefinite" path="M294 310 H356"/></circle><circle r="9"><animateMotion dur="3.8s" repeatCount="indefinite" path="M504 310 H566"/></circle><circle r="9"><animateMotion dur="4.2s" repeatCount="indefinite" path="M804 310 H866"/></circle></g>
 <text class="meta" x="54" y="414" font-size="11" fill="#111111">AI TOOLING PATH</text>
-<g stroke="#111111" stroke-width="4" fill="url(#glass)">
-  <rect x="54" y="434" width="300" height="92" rx="18"/>
-  <rect x="428" y="434" width="220" height="92" rx="18"/>
-  <rect x="722" y="434" width="402" height="92" rx="18"/>
-</g>
-<g fill="#111111">
-  <text class="meta" x="78" y="466" font-size="10">RUNTIME</text><text class="ui" x="78" y="500" font-size="19">TypeScript · Bun</text>
-  <text class="meta" x="452" y="466" font-size="10">BRIDGE</text><text class="ui" x="490" y="500" font-size="20">MCP</text>
-  <text class="meta" x="746" y="466" font-size="10">MODEL CONTEXT</text><text class="ui" x="746" y="500" font-size="19">LLM tooling</text>
-</g>
-<path d="M354 480 H428 M648 480 H722" fill="none" stroke="#111111" stroke-width="4"/>
-<g class="motion" fill="#B6FF4A" stroke="#111111" stroke-width="3">
-  <circle r="9"><animateMotion dur="3.4s" repeatCount="indefinite" path="M354 480 H428"/></circle>
-  <circle r="9"><animateMotion dur="4s" repeatCount="indefinite" path="M648 480 H722"/></circle>
-</g>
-
-<rect x="26" y="572" width="1148" height="22" fill="#111111"/>
-<text class="meta" x="54" y="589" font-size="10" fill="#F4F0E8">C++ · NETWORKING · OS FOUNDATIONS</text>
-<text class="meta" x="1126" y="589" text-anchor="end" font-size="10" fill="#55D6FF">NEXT / 05 ↓</text>
+<g stroke="#111111" stroke-width="4" fill="url(#glass)"><rect x="54" y="434" width="300" height="92" rx="18"/><rect x="428" y="434" width="220" height="92" rx="18"/><rect x="722" y="434" width="402" height="92" rx="18"/></g>
+<g fill="#111111"><text class="meta" x="78" y="466" font-size="10">RUNTIME</text><text class="ui" x="78" y="500" font-size="19">TypeScript · Bun</text><text class="meta" x="452" y="466" font-size="10">BRIDGE</text><text class="ui" x="490" y="500" font-size="20">MCP</text><text class="meta" x="746" y="466" font-size="10">MODEL CONTEXT</text><text class="ui" x="746" y="500" font-size="19">LLM tooling</text></g>
+<path d="M354 480 H428 M648 480 H722" fill="none" stroke="#111111" stroke-width="4"/><g class="motion" fill="#B6FF4A" stroke="#111111" stroke-width="3"><circle r="9"><animateMotion dur="3.4s" repeatCount="indefinite" path="M354 480 H428"/></circle><circle r="9"><animateMotion dur="4s" repeatCount="indefinite" path="M648 480 H722"/></circle></g>
+<rect x="26" y="572" width="1148" height="22" fill="#111111"/><text class="meta" x="54" y="589" font-size="10" fill="#F4F0E8">C++ · NETWORKING · OS FOUNDATIONS</text><text class="meta" x="1126" y="589" text-anchor="end" font-size="10" fill="#55D6FF">NEXT / 05 ↓</text>
 </svg>
