@@ -1,13 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="285" height="96" viewBox="0 0 285 96" role="img" aria-label="Work navigation">
-<style>
-@media (prefers-reduced-motion: reduce){*{animation:none!important}}
-.display{font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif;font-weight:900;font-stretch:condensed;letter-spacing:-1px}
-.meta{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-weight:700;letter-spacing:.45px}
-</style>
-<rect width="285" height="96" fill="#F4F0E8"/>
-<rect x="5" y="5" width="270" height="80" fill="#111111"/>
-<rect x="0" y="0" width="270" height="80" fill="#B6FF4A" stroke="#111111" stroke-width="4"/>
-<text class="meta" x="18" y="29" font-size="10" fill="#111111">01 / CHAPTER</text>
-<text class="display" x="18" y="62" font-size="27" fill="#111111">WORK ↘</text>
-<circle cx="242" cy="40" r="10" fill="#111111"><animate attributeName="r" values="8;12;8" dur="2.8s" repeatCount="indefinite"/></circle>
+<svg xmlns="http://www.w3.org/2000/svg" width="285" height="96" viewBox="0 0 285 96" role="img" aria-label="Selected work navigation">
+<style>@media (prefers-reduced-motion: reduce){.motion{display:none}}.display{font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif;font-weight:900;font-stretch:condensed;letter-spacing:-1px}.meta{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-weight:700;letter-spacing:.45px}</style>
+<rect width="285" height="96" fill="#F4F0E8"/><rect x="5" y="5" width="270" height="80" fill="#111111"/><rect x="0" y="0" width="270" height="80" fill="#B6FF4A" stroke="#111111" stroke-width="4"/>
+<text class="meta" x="18" y="29" font-size="11" fill="#111111">01—03 / SELECTED WORK</text><text class="display" x="18" y="62" font-size="27" fill="#111111">WORK ↘</text><circle cx="242" cy="40" r="10" fill="#111111"/><circle class="motion" cx="242" cy="40" r="10" fill="#111111"><animate attributeName="r" values="8;12;8" dur="2.8s" repeatCount="indefinite"/></circle>
 </svg>
