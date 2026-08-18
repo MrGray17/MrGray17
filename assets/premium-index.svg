@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-label="Selected projects index">
+  <rect width="1200" height="190" fill="#111111"/>
+  <line x1="32" y1="34" x2="1168" y2="34" stroke="#F4F0E8" stroke-width="2"/>
+  <line x1="32" y1="156" x2="1168" y2="156" stroke="#F4F0E8" stroke-width="2"/>
+  <text x="42" y="79" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#B6FF4A">SELECTED WORK</text>
+  <text x="42" y="127" font-family="Impact, Arial Black, sans-serif" font-size="44" fill="#F4F0E8">01</text>
+  <text x="118" y="127" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#F4F0E8">OPENTOKEN</text>
+  <text x="430" y="127" font-family="Impact, Arial Black, sans-serif" font-size="44" fill="#F4F0E8">02</text>
+  <text x="506" y="127" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#F4F0E8">RATE LIMITER</text>
+  <text x="864" y="127" font-family="Impact, Arial Black, sans-serif" font-size="44" fill="#F4F0E8">03</text>
+  <text x="940" y="127" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#F4F0E8">MAW3ID</text>
+  <rect x="1100" y="55" width="42" height="42" fill="#FF5CA8">
+    <animateTransform attributeName="transform" type="rotate" from="0 1121 76" to="360 1121 76" dur="9s" repeatCount="indefinite"/>
+  </rect>
+</svg>
