@@ -61,7 +61,9 @@
 </p>
 
 <p align="center">
-  <img src="./space-shooter.gif" width="100%" alt="Contribution Space Shooter" />
+  <picture>
+    <img src="./space-shooter.gif" width="100%" alt="Contribution Space Shooter" />
+  </picture>
 </p>
 
 <p align="center">
