@@ -1,60 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-label="Maw3id animated project scene">
 <style>
-.still{display:none}@media (prefers-reduced-motion: reduce){.motion{display:none}.still{display:block}}
+.still{display:none}
+@media (prefers-reduced-motion: reduce){.motion{display:none}.still{display:inline}}
 .display{font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif;font-weight:900;font-stretch:condensed;letter-spacing:-3px}
 .meta{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-weight:700;letter-spacing:.55px}
 .ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:850}
 .editorial{font-family:Georgia,"Times New Roman",serif;font-style:italic}
 </style>
-<defs>
-  <linearGradient id="mapbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E9D8FF"/><stop offset="1" stop-color="#F7F2FF"/></linearGradient>
-</defs>
+<defs><linearGradient id="mapbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E9E2FF"/><stop offset="1" stop-color="#F4F0E8"/></linearGradient></defs>
 <rect width="1200" height="620" fill="#F4F0E8"/>
 <rect x="26" y="26" width="1148" height="568" fill="none" stroke="#111111" stroke-width="6"/>
 <text class="meta" x="52" y="76" font-size="15" fill="#111111">03 / FULL STACK</text>
-<text class="display" x="50" y="166" font-size="88" fill="#111111">MAW3ID</text>
+<text class="display" x="50" y="166" font-size="88" textLength="360" lengthAdjust="spacingAndGlyphs" fill="#111111">MAW3ID</text>
 <text class="editorial" x="54" y="210" font-size="23" fill="#111111">Medical queue and appointment management</text>
-
-<rect x="52" y="248" width="500" height="300" fill="#FF6FAE" stroke="#111111" stroke-width="5"/>
+<rect x="52" y="248" width="500" height="300" fill="#FF5CA8" stroke="#111111" stroke-width="5"/>
 <text class="meta" x="76" y="286" font-size="12" fill="#111111">TODAY / NOW SERVING</text>
-
-<text class="still display" x="78" y="420" font-size="116" fill="#111111">A17</text>
-<g class="motion display" fill="#111111">
-  <g><text x="78" y="420" font-size="116">A17</text><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.333;0.666" dur="9s" repeatCount="indefinite" calcMode="discrete"/></g>
-  <g opacity="0"><text x="78" y="420" font-size="116">A18</text><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.333;0.666" dur="9s" repeatCount="indefinite" calcMode="discrete"/></g>
-  <g opacity="0"><text x="78" y="420" font-size="116">A19</text><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.333;0.666" dur="9s" repeatCount="indefinite" calcMode="discrete"/></g>
-</g>
-
-<line x1="290" y1="322" x2="290" y2="458" stroke="#111111" stroke-width="4"/>
-<text class="meta" x="320" y="342" font-size="11" fill="#111111">NEXT</text>
-<g class="ui" font-size="24" fill="#111111">
-  <rect x="320" y="360" width="94" height="64" fill="#F4F0E8" stroke="#111111" stroke-width="4"/><text x="367" y="402" text-anchor="middle">A18</text>
-  <rect x="426" y="360" width="94" height="64" fill="#B6FF4A" stroke="#111111" stroke-width="4"/><text x="473" y="402" text-anchor="middle">A19</text>
-</g>
-<rect x="76" y="462" width="444" height="50" fill="#111111"/>
-<text class="meta" x="92" y="493" font-size="11" fill="#F4F0E8">PHONE APPOINTMENTS + WALK-INS → ONE QUEUE</text>
-<rect class="motion" x="76" y="462" width="82" height="6" fill="#B6FF4A"><animate attributeName="x" values="76;438;76" dur="5.5s" repeatCount="indefinite"/></rect>
-
-<rect x="604" y="248" width="518" height="300" fill="url(#mapbg)" stroke="#111111" stroke-width="5"/>
-<text class="meta" x="628" y="286" font-size="12" fill="#111111">SEARCH / MAP</text>
-<path d="M634 350 C704 302 758 402 830 350 S956 306 1088 390" fill="none" stroke="#111111" stroke-width="3" stroke-dasharray="8 9"/>
-
-<g>
-  <circle cx="700" cy="362" r="12" fill="#5B7FFF" stroke="#111111" stroke-width="4"/>
-  <circle class="motion" cx="700" cy="362" r="24" fill="none" stroke="#5B7FFF" stroke-width="4"><animate attributeName="r" values="14;38;14" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0;0.9" dur="3s" repeatCount="indefinite"/></circle>
-  <circle cx="858" cy="416" r="12" fill="#FF5CA8" stroke="#111111" stroke-width="4"/>
-  <circle class="motion" cx="858" cy="416" r="24" fill="none" stroke="#FF5CA8" stroke-width="4"><animate attributeName="r" values="14;35;14" dur="3.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0;0.9" dur="3.8s" repeatCount="indefinite"/></circle>
-  <circle cx="1018" cy="348" r="12" fill="#B6FF4A" stroke="#111111" stroke-width="4"/>
-  <circle class="motion" cx="1018" cy="348" r="24" fill="none" stroke="#111111" stroke-width="3"><animate attributeName="r" values="14;34;14" dur="4.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0;0.8" dur="4.3s" repeatCount="indefinite"/></circle>
-</g>
-
-<g class="meta" font-size="10" fill="#111111">
-  <rect x="646" y="458" width="118" height="38" fill="#FFFFFF" stroke="#111111" stroke-width="3"/><text x="670" y="483">REACT / TS</text>
-  <rect x="776" y="458" width="142" height="38" fill="#FFFFFF" stroke="#111111" stroke-width="3"/><text x="804" y="483">EXPRESS</text>
-  <rect x="930" y="458" width="150" height="38" fill="#FFFFFF" stroke="#111111" stroke-width="3"/><text x="952" y="483">POSTGRES</text>
-</g>
-<text class="ui" x="1002" y="528" font-size="20" fill="#111111">OPEN ↗</text>
-
-<rect x="26" y="572" width="1148" height="22" fill="#E9E2FF"/>
-<text class="meta" x="1126" y="589" text-anchor="end" font-size="11" fill="#111111">NEXT / 04 ↓</text>
+<text class="still display" x="78" y="420" font-size="116" textLength="180" lengthAdjust="spacingAndGlyphs" fill="#111111">A17</text>
+<g class="motion display" fill="#111111"><g><text x="78" y="420" font-size="116" textLength="180" lengthAdjust="spacingAndGlyphs">A17</text><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.333;0.666" dur="9s" repeatCount="indefinite" calcMode="discrete"/></g><g opacity="0"><text x="78" y="420" font-size="116" textLength="180" lengthAdjust="spacingAndGlyphs">A18</text><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.333;0.666" dur="9s" repeatCount="indefinite" calcMode="discrete"/></g><g opacity="0"><text x="78" y="420" font-size="116" textLength="180" lengthAdjust="spacingAndGlyphs">A19</text><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.333;0.666" dur="9s" repeatCount="indefinite" calcMode="discrete"/></g></g>
+<line x1="290" y1="322" x2="290" y2="458" stroke="#111111" stroke-width="4"/><text class="meta" x="320" y="342" font-size="11" fill="#111111">NEXT</text>
+<g class="ui" font-size="24" fill="#111111"><rect x="320" y="360" width="94" height="64" fill="#F4F0E8" stroke="#111111" stroke-width="4"/><text x="367" y="402" text-anchor="middle">A18</text><rect x="426" y="360" width="94" height="64" fill="#B6FF4A" stroke="#111111" stroke-width="4"/><text x="473" y="402" text-anchor="middle">A19</text></g>
+<rect x="76" y="462" width="444" height="50" fill="#111111"/><text class="meta" x="92" y="493" font-size="11" fill="#F4F0E8">PHONE APPOINTMENTS + WALK-INS → ONE QUEUE</text><rect class="motion" x="76" y="462" width="82" height="6" fill="#B6FF4A"><animate attributeName="x" values="76;438;76" dur="5.5s" repeatCount="indefinite"/></rect>
+<rect x="604" y="248" width="518" height="300" fill="url(#mapbg)" stroke="#111111" stroke-width="5"/><text class="meta" x="628" y="286" font-size="12" fill="#111111">SEARCH / MAP</text><path d="M634 350 C704 302 758 402 830 350 S956 306 1088 390" fill="none" stroke="#111111" stroke-width="3" stroke-dasharray="8 9"/>
+<g><circle cx="700" cy="362" r="12" fill="#55D6FF" stroke="#111111" stroke-width="4"/><circle class="motion" cx="700" cy="362" r="24" fill="none" stroke="#55D6FF" stroke-width="4"><animate attributeName="r" values="14;38;14" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0;0.9" dur="3s" repeatCount="indefinite"/></circle><circle cx="858" cy="416" r="12" fill="#FF5CA8" stroke="#111111" stroke-width="4"/><circle class="motion" cx="858" cy="416" r="24" fill="none" stroke="#FF5CA8" stroke-width="4"><animate attributeName="r" values="14;35;14" dur="3.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0;0.9" dur="3.8s" repeatCount="indefinite"/></circle><circle cx="1018" cy="348" r="12" fill="#B6FF4A" stroke="#111111" stroke-width="4"/><circle class="motion" cx="1018" cy="348" r="24" fill="none" stroke="#111111" stroke-width="3"><animate attributeName="r" values="14;34;14" dur="4.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0;0.8" dur="4.3s" repeatCount="indefinite"/></circle></g>
+<g class="meta" font-size="10" fill="#111111"><rect x="646" y="458" width="118" height="38" fill="#FFFFFF" stroke="#111111" stroke-width="3"/><text x="670" y="483">REACT / TS</text><rect x="776" y="458" width="142" height="38" fill="#FFFFFF" stroke="#111111" stroke-width="3"/><text x="804" y="483">EXPRESS</text><rect x="930" y="458" width="150" height="38" fill="#FFFFFF" stroke="#111111" stroke-width="3"/><text x="952" y="483">POSTGRES</text></g><text class="ui" x="1002" y="528" font-size="20" fill="#111111">OPEN ↗</text>
+<rect x="26" y="572" width="1148" height="22" fill="#E9E2FF"/><text class="meta" x="1126" y="589" text-anchor="end" font-size="11" fill="#111111">NEXT / 04 ↓</text>
 </svg>
