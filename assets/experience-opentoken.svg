@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<rect width="1200" height="360" fill="#FFF4E8"/>
+<rect x="34" y="34" width="1100" height="286" fill="#111"/>
+<rect x="22" y="22" width="1100" height="286" fill="#7EE7C1" stroke="#111" stroke-width="7"/>
+<text x="55" y="92" font-family="Arial Black,Arial" font-size="30" fill="#111">01 / AI TOOLING</text>
+<text x="55" y="190" font-family="Arial Black,Arial" font-size="78" fill="#111">OPENTOKEN</text>
+<text x="58" y="238" font-family="Arial,Helvetica" font-weight="700" font-size="25" fill="#111">Token compression for AI coding agents</text>
+<rect x="58" y="265" width="170" height="42" fill="#FFF4E8" stroke="#111" stroke-width="4"/>
+<rect x="240" y="265" width="116" height="42" fill="#FFF4E8" stroke="#111" stroke-width="4"/>
+<rect x="368" y="265" width="104" height="42" fill="#FFF4E8" stroke="#111" stroke-width="4"/>
+<text x="78" y="293" font-family="Arial Black,Arial" font-size="17">TYPESCRIPT</text>
+<text x="269" y="293" font-family="Arial Black,Arial" font-size="17">BUN</text>
+<text x="395" y="293" font-family="Arial Black,Arial" font-size="17">MCP</text>
+<text x="1015" y="279" font-family="Arial Black,Arial" font-size="27" fill="#111">OPEN ↗</text>
+<circle cx="970" cy="90" r="46" fill="#FFD84D" stroke="#111" stroke-width="6"/>
+<path d="M970 55v70M935 90h70" stroke="#111" stroke-width="8">
+<animateTransform attributeName="transform" type="rotate" from="0 970 90" to="360 970 90" dur="10s" repeatCount="indefinite"/>
+</path>
+</svg>
