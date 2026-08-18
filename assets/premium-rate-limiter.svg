@@ -1,17 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="570" viewBox="0 0 1200 570" role="img" aria-label="Rate Limiter animated project scene">
-<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<style>
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+.display{font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif;font-weight:900;font-stretch:condensed;letter-spacing:-3px}
+.meta{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-weight:700;letter-spacing:.55px}
+.ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:850}
+.editorial{font-family:Georgia,"Times New Roman",serif;font-style:italic}
+</style>
 <rect width="1200" height="570" fill="#FFD84D"/>
 <rect x="26" y="26" width="1148" height="518" fill="none" stroke="#111111" stroke-width="6"/>
-<text x="52" y="76" font-family="Courier New,monospace" font-size="17" font-weight="700" fill="#111111">02 / BACKEND</text>
-<text x="50" y="166" font-family="Impact,Arial Black,sans-serif" font-size="88" fill="#111111">RATE LIMITER</text>
-<text x="54" y="210" font-family="Georgia,serif" font-size="24" font-style="italic" fill="#111111">Fixed-window HTTP rate limiting from first principles</text>
-<text x="54" y="250" font-family="Courier New,monospace" font-size="15" font-weight="700" fill="#111111">POST /check · x-client-id · 5 requests / 10s</text>
+<text class="meta" x="52" y="76" font-size="15" fill="#111111">02 / BACKEND</text>
+<text class="display" x="50" y="166" font-size="86" fill="#111111">RATE LIMITER</text>
+<text class="editorial" x="54" y="210" font-size="23" fill="#111111">Fixed-window HTTP rate limiting from first principles</text>
+<text class="meta" x="54" y="250" font-size="13" fill="#111111">POST /check · x-client-id · 5 requests / 10s</text>
 
 <rect x="52" y="286" width="1090" height="176" fill="#F4F0E8" stroke="#111111" stroke-width="5"/>
-<text x="76" y="320" font-family="Courier New,monospace" font-size="14" font-weight="700" fill="#111111">REQUEST STREAM</text>
+<text class="meta" x="76" y="320" font-size="12" fill="#111111">REQUEST STREAM</text>
 <line x1="88" y1="380" x2="960" y2="380" stroke="#111111" stroke-width="5"/>
 <rect x="936" y="334" width="28" height="92" fill="#111111"/>
-<text x="907" y="326" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#111111">LIMIT</text>
+<text class="meta" x="907" y="326" font-size="11" fill="#111111">LIMIT</text>
 
 <g>
   <circle cx="110" cy="380" r="18" fill="#B6FF4A" stroke="#111111" stroke-width="4"><animate attributeName="cx" values="110;900;900" keyTimes="0;0.84;1" dur="6s" begin="0s" repeatCount="indefinite"/></circle>
@@ -23,14 +29,14 @@
 </g>
 
 <rect x="992" y="340" width="118" height="80" fill="#111111"/>
-<text x="1051" y="372" text-anchor="middle" font-family="Impact,Arial Black,sans-serif" font-size="26" fill="#B6FF4A">200</text>
-<text x="1051" y="398" text-anchor="middle" font-family="Courier New,monospace" font-size="12" font-weight="700" fill="#F4F0E8">ALLOWED</text>
+<text class="display" x="1051" y="372" text-anchor="middle" font-size="28" fill="#B6FF4A">200</text>
+<text class="meta" x="1051" y="398" text-anchor="middle" font-size="10" fill="#F4F0E8">ALLOWED</text>
 <rect x="780" y="414" width="144" height="42" fill="#FF5C7A" stroke="#111111" stroke-width="3"/>
-<text x="852" y="442" text-anchor="middle" font-family="Impact,Arial Black,sans-serif" font-size="23" fill="#111111">429</text>
+<text class="display" x="852" y="442" text-anchor="middle" font-size="25" fill="#111111">429</text>
 
 <rect x="52" y="484" width="152" height="38" fill="#111111"/><rect x="214" y="484" width="118" height="38" fill="#111111"/><rect x="342" y="484" width="92" height="38" fill="#111111"/>
-<g font-family="Courier New,monospace" font-size="14" font-weight="700" fill="#F4F0E8"><text x="67" y="509">TYPESCRIPT</text><text x="240" y="509">NODE.JS</text><text x="367" y="509">HTTP</text></g>
-<text x="1004" y="510" font-family="Arial,sans-serif" font-size="22" font-weight="900" fill="#111111">OPEN ↗</text>
+<g class="meta" font-size="12" fill="#F4F0E8"><text x="67" y="509">TYPESCRIPT</text><text x="240" y="509">NODE.JS</text><text x="367" y="509">HTTP</text></g>
+<text class="ui" x="1004" y="510" font-size="20" fill="#111111">OPEN ↗</text>
 <rect x="26" y="522" width="1148" height="22" fill="#FF5CA8"/>
-<text x="1126" y="539" text-anchor="end" font-family="Courier New,monospace" font-size="12" font-weight="700" fill="#111111">NEXT / 03 ↓</text>
+<text class="meta" x="1126" y="539" text-anchor="end" font-size="11" fill="#111111">NEXT / 03 ↓</text>
 </svg>
