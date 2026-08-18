@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="92" viewBox="0 0 1200 92" role="img" aria-label="Game 02 Snake">
+<rect width="1200" height="92" fill="#55D6FF"/>
+<rect x="22" y="16" width="1156" height="60" fill="#F4F0E8" stroke="#111111" stroke-width="4"/>
+<text x="48" y="54" font-family="Courier New,monospace" font-size="15" font-weight="700" fill="#111111">GAME 02</text>
+<text x="186" y="58" font-family="Impact,Arial Black,sans-serif" font-size="34" fill="#111111">SNAKE</text>
+<text x="1128" y="54" text-anchor="end" font-family="Courier New,monospace" font-size="14" font-weight="700" fill="#111111">CONTRIBUTIONS</text>
+</svg>
