@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190">
+<rect width="1200" height="190" fill="#FFF4E8"/>
+<rect x="28" y="28" width="1144" height="134" fill="#FFD84D" stroke="#111" stroke-width="7"/>
+<text x="58" y="112" font-family="Arial Black,Arial" font-size="62" fill="#111">CONTRIBUTIONS</text>
+<g transform="translate(1020 95)">
+<circle r="48" fill="#FF6FAE" stroke="#111" stroke-width="6"/>
+<path d="M-24 0H24M0-24V24" stroke="#111" stroke-width="8">
+<animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+</path>
+</g>
+</svg>
