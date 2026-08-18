@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="92" viewBox="0 0 1200 92" role="img" aria-label="Game 02 Snake">
-<style>.display{font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif;font-weight:900;font-stretch:condensed;letter-spacing:-1px}.meta{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-weight:700;letter-spacing:.5px}</style>
-<rect width="1200" height="92" fill="#55D6FF"/><rect x="22" y="16" width="1156" height="60" fill="#F4F0E8" stroke="#111111" stroke-width="4"/>
-<text class="meta" x="48" y="54" font-size="13" fill="#111111">GAME 02</text><text class="display" x="186" y="58" font-size="34" textLength="120" lengthAdjust="spacingAndGlyphs" fill="#111111">SNAKE</text><text class="meta" x="1128" y="54" text-anchor="end" font-size="12" fill="#111111">CONTRIBUTIONS</text>
-</svg>
