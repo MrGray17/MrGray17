@@ -1,10 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="MrGray17 portfolio end">
-<rect width="1200" height="260" fill="#F4F0E8"/>
-<rect x="26" y="26" width="1148" height="208" fill="#F4F0E8" stroke="#111111" stroke-width="5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="MrGray17 portfolio ending">
+<rect width="1200" height="300" fill="#F4F0E8"/>
+<rect x="26" y="26" width="1148" height="248" fill="#F4F0E8" stroke="#111111" stroke-width="5"/>
 <text x="52" y="72" font-family="Courier New,monospace" font-size="15" font-weight="700" fill="#111111">END / 05</text>
 <text x="50" y="164" font-family="Impact,Arial Black,sans-serif" font-size="86" fill="#111111">MRGRAY17</text>
-<rect x="800" y="76" width="310" height="94" fill="#B6FF4A" stroke="#111111" stroke-width="5"/>
-<text x="955" y="133" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="24" font-weight="900" fill="#111111">REPOSITORIES ↗</text>
-<line x1="52" y1="194" x2="1110" y2="194" stroke="#111111" stroke-width="2"/>
-<text x="52" y="219" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#111111">GITHUB.COM/MRGRAY17</text>
+<line x1="52" y1="194" x2="1140" y2="194" stroke="#111111" stroke-width="2"/>
+<text x="52" y="226" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#111111">SOURCE BELOW</text>
+<text x="52" y="250" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#111111">PINNED REPOSITORIES · CONTRIBUTION ACTIVITY</text>
+<rect x="820" y="78" width="286" height="104" fill="#B6FF4A" stroke="#111111" stroke-width="5"/>
+<text x="963" y="121" text-anchor="middle" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#111111">CONTINUE ↓</text>
+<path d="M963 136v24M951 150l12 12 12-12" fill="none" stroke="#111111" stroke-width="5" stroke-linecap="square"/>
 </svg>
