@@ -1,17 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Contribution arcade scene">
-  <rect width="1200" height="260" fill="#111111"/>
-  <rect x="26" y="26" width="1148" height="208" fill="none" stroke="#B6FF4A" stroke-width="4"/>
-  <text x="52" y="76" font-family="Courier New, monospace" font-size="18" font-weight="700" fill="#B6FF4A">05 / CONTRIBUTIONS</text>
-  <text x="50" y="162" font-family="Impact, Arial Black, sans-serif" font-size="72" fill="#F4F0E8">ARCADE BREAK</text>
-  <text x="54" y="202" font-family="Courier New, monospace" font-size="17" font-weight="700" fill="#55D6FF">SPACE SHOOTER / SNAKE</text>
-
-  <g transform="translate(1010 130)">
-    <path d="M-34 24 L0-34 L34 24 L13 18 L0 38 L-13 18 Z" fill="#FF5CA8" stroke="#F4F0E8" stroke-width="4">
-      <animateTransform attributeName="transform" type="translate" values="-42 0;42 0;-42 0" dur="4.2s" repeatCount="indefinite"/>
-    </path>
-    <circle cx="0" cy="54" r="7" fill="#FFD84D">
-      <animate attributeName="cy" values="54;-80" dur="1.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0" dur="1.2s" repeatCount="indefinite"/>
-    </circle>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Contribution arcade intermission">
+<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="1200" height="260" fill="#111111"/>
+<rect x="26" y="26" width="1148" height="208" fill="none" stroke="#F4F0E8" stroke-width="4"/>
+<text x="52" y="70" font-family="Courier New,monospace" font-size="16" font-weight="700" fill="#55D6FF">05 / INTERMISSION</text>
+<text x="50" y="160" font-family="Impact,Arial Black,sans-serif" font-size="78" fill="#F4F0E8">ARCADE</text>
+<text x="52" y="198" font-family="Courier New,monospace" font-size="15" font-weight="700" fill="#F4F0E8">CONTRIBUTIONS / 02 GAMES</text>
+<g transform="translate(1018 128)">
+  <circle r="74" fill="#FF5CA8" stroke="#F4F0E8" stroke-width="4"/>
+  <path d="M0-34L10-10 34 0 10 10 0 34-10 10-34 0-10-10Z" fill="#B6FF4A" stroke="#111111" stroke-width="3"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/></path>
+</g>
+<rect x="772" y="66" width="134" height="40" fill="#FFD84D" stroke="#F4F0E8" stroke-width="3"/>
+<text x="839" y="91" text-anchor="middle" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#111111">GAME 01</text>
+<rect x="772" y="122" width="134" height="40" fill="#55D6FF" stroke="#F4F0E8" stroke-width="3"/>
+<text x="839" y="147" text-anchor="middle" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#111111">GAME 02</text>
 </svg>
