@@ -9,7 +9,6 @@
 <rect x="26" y="26" width="1148" height="208" fill="none" stroke="#F4F0E8" stroke-width="4"/>
 <text class="meta" x="52" y="70" font-size="14" fill="#55D6FF">05 / INTERMISSION</text>
 <text class="display" x="50" y="160" font-size="76" textLength="520" lengthAdjust="spacingAndGlyphs" fill="#F4F0E8">ACTIVITY ARCADE</text>
-<text class="meta" x="52" y="198" font-size="13" fill="#F4F0E8">CONTRIBUTIONS / 02 GAMES</text>
+<text class="meta" x="52" y="198" font-size="13" fill="#F4F0E8">CONTRIBUTIONS</text>
 <g transform="translate(1018 128)"><circle r="74" fill="#FF5CA8" stroke="#F4F0E8" stroke-width="4"/><path class="motion" d="M0-34L10-10 34 0 10 10 0 34-10 10-34 0-10-10Z" fill="#B6FF4A" stroke="#111111" stroke-width="3"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/></path><path class="still" d="M0-34L10-10 34 0 10 10 0 34-10 10-34 0-10-10Z" fill="#B6FF4A" stroke="#111111" stroke-width="3"/></g>
-<rect x="772" y="66" width="134" height="40" fill="#FFD84D" stroke="#F4F0E8" stroke-width="3"/><text class="meta" x="839" y="91" text-anchor="middle" font-size="11" fill="#111111">GAME 01</text><rect x="772" y="122" width="134" height="40" fill="#55D6FF" stroke="#F4F0E8" stroke-width="3"/><text class="meta" x="839" y="147" text-anchor="middle" font-size="11" fill="#111111">GAME 02</text>
 </svg>
