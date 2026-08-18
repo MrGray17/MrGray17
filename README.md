@@ -1,36 +1,39 @@
 <p align="center">
-  <img src="./assets/experience-cover.svg" width="100%" alt="MrGray17" />
+  <img src="./assets/premium-cover.svg" width="100%" alt="MrGray17 — El Yazid Hammoubel" />
 </p>
 
 <p align="center">
-  <a href="#projects"><b>PROJECTS</b></a>
-  &nbsp;&nbsp;◆&nbsp;&nbsp;
+  <a href="#work"><b>WORK</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#stack"><b>STACK</b></a>
-  &nbsp;&nbsp;◆&nbsp;&nbsp;
-  <a href="#contributions"><b>CONTRIBUTIONS</b></a>
-  &nbsp;&nbsp;◆&nbsp;&nbsp;
-  <a href="https://github.com/MrGray17?tab=repositories"><b>ALL REPOS ↗</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#arcade"><b>ARCADE</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/MrGray17?tab=repositories"><b>REPOSITORIES ↗</b></a>
 </p>
 
 <br/>
 
-<a id="projects"></a>
+<a id="work"></a>
+<p align="center">
+  <img src="./assets/premium-index.svg" width="100%" alt="Selected work" />
+</p>
 
 <p align="center">
   <a href="https://github.com/MrGray17/opentoken">
-    <img src="./assets/experience-opentoken.svg" width="100%" alt="OpenToken" />
+    <img src="./assets/premium-opentoken.svg" width="100%" alt="OpenToken — token compression for AI coding agents" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/MrGray17/rate-limiter">
-    <img src="./assets/experience-rate-limiter.svg" width="100%" alt="Rate Limiter" />
+    <img src="./assets/premium-rate-limiter.svg" width="100%" alt="Rate Limiter — HTTP rate limiting from first principles" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/MrGray17/Maw3id">
-    <img src="./assets/experience-maw3id.svg" width="100%" alt="Maw3id" />
+    <img src="./assets/premium-maw3id.svg" width="100%" alt="Maw3id — medical queue and appointment management" />
   </a>
 </p>
 
@@ -38,14 +41,14 @@
 
 <a id="stack"></a>
 <p align="center">
-  <img src="./assets/experience-stack.svg" width="100%" alt="Stack" />
+  <img src="./assets/premium-stack.svg" width="100%" alt="Working technology stack" />
 </p>
 
 <br/>
 
-<a id="contributions"></a>
+<a id="arcade"></a>
 <p align="center">
-  <img src="./assets/experience-arcade.svg" width="100%" alt="Contributions" />
+  <img src="./assets/premium-arcade.svg" width="100%" alt="Contribution arcade" />
 </p>
 
 <p align="center">
@@ -64,6 +67,6 @@
 
 <p align="center">
   <a href="https://github.com/MrGray17?tab=repositories">
-    <img src="./assets/experience-footer.svg" width="100%" alt="Repositories" />
+    <img src="./assets/premium-footer.svg" width="100%" alt="MrGray17 repositories" />
   </a>
 </p>
