@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="285" height="96" viewBox="0 0 285 96" role="img" aria-label="Arcade navigation">
+<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="285" height="96" fill="#F4F0E8"/>
+<rect x="5" y="5" width="270" height="80" fill="#111111"/>
+<rect x="0" y="0" width="270" height="80" fill="#FF5CA8" stroke="#111111" stroke-width="4"/>
+<text x="18" y="29" font-family="Courier New,monospace" font-size="12" font-weight="700" fill="#111111">05 / INTERMISSION</text>
+<text x="18" y="62" font-family="Arial Black,Arial,sans-serif" font-size="27" font-weight="900" fill="#111111">ARCADE ↘</text>
+<path d="M238 22l5 13 13 5-13 5-5 13-5-13-13-5 13-5z" fill="#B6FF4A" stroke="#111111" stroke-width="2">
+<animateTransform attributeName="transform" type="rotate" from="0 238 40" to="360 238 40" dur="7s" repeatCount="indefinite"/>
+</path>
+</svg>
