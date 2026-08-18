@@ -1,12 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="MrGray17 portfolio ending">
+<style>
+.display{font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif;font-weight:900;font-stretch:condensed;letter-spacing:-3px}
+.meta{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-weight:700;letter-spacing:.55px}
+</style>
 <rect width="1200" height="300" fill="#F4F0E8"/>
 <rect x="26" y="26" width="1148" height="248" fill="#F4F0E8" stroke="#111111" stroke-width="5"/>
-<text x="52" y="72" font-family="Courier New,monospace" font-size="15" font-weight="700" fill="#111111">END / 05</text>
-<text x="50" y="164" font-family="Impact,Arial Black,sans-serif" font-size="86" fill="#111111">MRGRAY17</text>
+<text class="meta" x="52" y="72" font-size="13" fill="#111111">END / 05</text>
+<text class="display" x="50" y="164" font-size="84" fill="#111111">MRGRAY17</text>
 <line x1="52" y1="194" x2="1140" y2="194" stroke="#111111" stroke-width="2"/>
-<text x="52" y="226" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#111111">SOURCE BELOW</text>
-<text x="52" y="250" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#111111">PINNED REPOSITORIES · CONTRIBUTION ACTIVITY</text>
+<text class="meta" x="52" y="226" font-size="11" fill="#111111">SOURCE BELOW</text>
+<text class="meta" x="52" y="250" font-size="11" fill="#111111">PINNED REPOSITORIES · CONTRIBUTION ACTIVITY</text>
 <rect x="820" y="78" width="286" height="104" fill="#B6FF4A" stroke="#111111" stroke-width="5"/>
-<text x="963" y="121" text-anchor="middle" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#111111">CONTINUE ↓</text>
+<text class="meta" x="963" y="121" text-anchor="middle" font-size="11" fill="#111111">CONTINUE ↓</text>
 <path d="M963 136v24M951 150l12 12 12-12" fill="none" stroke="#111111" stroke-width="5" stroke-linecap="square"/>
 </svg>
