@@ -1,24 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="Animated technology backstage scene">
-<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
-<defs><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.82"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.34"/></linearGradient></defs>
-<rect width="1200" height="520" fill="#E9E2FF"/>
-<circle cx="1052" cy="92" r="112" fill="#55D6FF" opacity="0.65"/><circle cx="958" cy="430" r="144" fill="#FF5CA8" opacity="0.48"/><circle cx="156" cy="430" r="124" fill="#B6FF4A" opacity="0.62"/>
-<rect x="26" y="26" width="1148" height="468" fill="none" stroke="#111111" stroke-width="5"/>
-<text x="52" y="78" font-family="Courier New,monospace" font-size="17" font-weight="700" fill="#111111">04 / BACKSTAGE</text>
-<text x="50" y="150" font-family="Impact,Arial Black,sans-serif" font-size="70" fill="#111111">STACK</text>
-<text x="54" y="184" font-family="Georgia,serif" font-size="21" font-style="italic" fill="#111111">Current working set</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-label="Animated technology backstage scene">
+<style>@media (prefers-reduced-motion: reduce){.motion{display:none}}</style>
+<defs>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.86"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.32"/></linearGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="16"/></filter>
+</defs>
+<rect width="1200" height="620" fill="#E9E2FF"/>
+<circle cx="1080" cy="90" r="128" fill="#55D6FF" opacity="0.54" filter="url(#soft)"/>
+<circle cx="160" cy="540" r="144" fill="#B6FF4A" opacity="0.42" filter="url(#soft)"/>
+<circle cx="995" cy="520" r="120" fill="#FF5CA8" opacity="0.34" filter="url(#soft)"/>
+<rect x="26" y="26" width="1148" height="568" fill="none" stroke="#111111" stroke-width="5"/>
+<text x="52" y="76" font-family="Courier New,monospace" font-size="17" font-weight="700" fill="#111111">04 / BACKSTAGE</text>
+<text x="50" y="150" font-family="Impact,Arial Black,sans-serif" font-size="70" fill="#111111">WORKING SET</text>
+<text x="54" y="184" font-family="Georgia,serif" font-size="21" font-style="italic" fill="#111111">Current tools, shown as the paths they actually form</text>
 
-<g stroke="#111111" stroke-width="4">
-<rect x="52" y="214" width="350" height="112" rx="18" fill="url(#glass)"/><rect x="420" y="214" width="320" height="112" rx="18" fill="url(#glass)"/><rect x="758" y="214" width="390" height="112" rx="18" fill="url(#glass)"/>
-<rect x="52" y="344" width="520" height="106" rx="18" fill="url(#glass)"/><rect x="590" y="344" width="558" height="106" rx="18" fill="url(#glass)"/>
+<!-- app path -->
+<text x="54" y="238" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#111111">APP PATH</text>
+<g stroke="#111111" stroke-width="4" fill="url(#glass)">
+  <rect x="54" y="258" width="240" height="104" rx="18"/>
+  <rect x="356" y="258" width="148" height="104" rx="18"/>
+  <rect x="566" y="258" width="238" height="104" rx="18"/>
+  <rect x="866" y="258" width="258" height="104" rx="18"/>
 </g>
-<g font-family="Courier New,monospace" fill="#111111"><text x="76" y="246" font-size="13" font-weight="700">LANGUAGES</text><text x="76" y="288" font-size="20" font-weight="700">TypeScript · JavaScript · C++</text><text x="444" y="246" font-size="13" font-weight="700">BACKEND</text><text x="444" y="288" font-size="20" font-weight="700">Node.js · Express</text><text x="782" y="246" font-size="13" font-weight="700">FRONTEND</text><text x="782" y="288" font-size="20" font-weight="700">React · Vite · MapLibre</text><text x="76" y="376" font-size="13" font-weight="700">DATA / PROTOCOLS</text><text x="76" y="416" font-size="20" font-weight="700">PostgreSQL · HTTP</text><text x="614" y="376" font-size="13" font-weight="700">AI TOOLING</text><text x="614" y="416" font-size="20" font-weight="700">MCP · LLM tooling · Bun</text></g>
+<g font-family="Courier New,monospace" fill="#111111">
+  <text x="78" y="292" font-size="12" font-weight="700">CLIENT</text><text x="78" y="330" font-size="18" font-weight="700">React · Vite</text><text x="78" y="352" font-size="15" font-weight="700">MapLibre</text>
+  <text x="380" y="292" font-size="12" font-weight="700">PROTOCOL</text><text x="392" y="333" font-size="22" font-weight="700">HTTP</text>
+  <text x="590" y="292" font-size="12" font-weight="700">API</text><text x="590" y="330" font-size="18" font-weight="700">Node.js</text><text x="590" y="352" font-size="15" font-weight="700">Express</text>
+  <text x="890" y="292" font-size="12" font-weight="700">DATA</text><text x="890" y="333" font-size="20" font-weight="700">PostgreSQL</text>
+</g>
+<path d="M294 310 H356 M504 310 H566 M804 310 H866" fill="none" stroke="#111111" stroke-width="4"/>
+<g class="motion" fill="#FF5CA8" stroke="#111111" stroke-width="3">
+  <circle r="9"><animateMotion dur="3.2s" repeatCount="indefinite" path="M294 310 H356"/></circle>
+  <circle r="9"><animateMotion dur="3.8s" repeatCount="indefinite" path="M504 310 H566"/></circle>
+  <circle r="9"><animateMotion dur="4.2s" repeatCount="indefinite" path="M804 310 H866"/></circle>
+</g>
 
-<path d="M400 270 C438 250 450 270 480 270 M738 270 C772 250 786 270 820 270 M570 396 C608 380 620 396 652 396" fill="none" stroke="#111111" stroke-width="3" stroke-dasharray="7 8"/>
-<circle cx="402" cy="270" r="7" fill="#111111"><animateMotion dur="4.5s" repeatCount="indefinite" path="M0 0 C36 -20 50 0 78 0"/></circle>
-<circle cx="740" cy="270" r="7" fill="#111111"><animateMotion dur="5s" repeatCount="indefinite" path="M0 0 C32 -20 48 0 80 0"/></circle>
-<circle cx="572" cy="396" r="7" fill="#111111"><animateMotion dur="5.4s" repeatCount="indefinite" path="M0 0 C36 -16 50 0 80 0"/></circle>
+<!-- ai tooling path -->
+<text x="54" y="414" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#111111">AI TOOLING PATH</text>
+<g stroke="#111111" stroke-width="4" fill="url(#glass)">
+  <rect x="54" y="434" width="300" height="92" rx="18"/>
+  <rect x="428" y="434" width="220" height="92" rx="18"/>
+  <rect x="722" y="434" width="402" height="92" rx="18"/>
+</g>
+<g font-family="Courier New,monospace" fill="#111111">
+  <text x="78" y="466" font-size="12" font-weight="700">RUNTIME</text><text x="78" y="500" font-size="18" font-weight="700">TypeScript · Bun</text>
+  <text x="452" y="466" font-size="12" font-weight="700">BRIDGE</text><text x="490" y="500" font-size="20" font-weight="700">MCP</text>
+  <text x="746" y="466" font-size="12" font-weight="700">MODEL CONTEXT</text><text x="746" y="500" font-size="18" font-weight="700">LLM tooling</text>
+</g>
+<path d="M354 480 H428 M648 480 H722" fill="none" stroke="#111111" stroke-width="4"/>
+<g class="motion" fill="#B6FF4A" stroke="#111111" stroke-width="3">
+  <circle r="9"><animateMotion dur="3.4s" repeatCount="indefinite" path="M354 480 H428"/></circle>
+  <circle r="9"><animateMotion dur="4s" repeatCount="indefinite" path="M648 480 H722"/></circle>
+</g>
 
-<rect x="26" y="472" width="1148" height="22" fill="#111111"/>
-<text x="1126" y="489" text-anchor="end" font-family="Courier New,monospace" font-size="12" font-weight="700" fill="#55D6FF">NEXT / 05 ↓</text>
+<rect x="26" y="572" width="1148" height="22" fill="#111111"/>
+<text x="54" y="589" font-family="Courier New,monospace" font-size="12" font-weight="700" fill="#F4F0E8">C++ · NETWORKING · OS FOUNDATIONS</text>
+<text x="1126" y="589" text-anchor="end" font-family="Courier New,monospace" font-size="12" font-weight="700" fill="#55D6FF">NEXT / 05 ↓</text>
 </svg>
