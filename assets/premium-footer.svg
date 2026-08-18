@@ -1,13 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="MrGray17 portfolio exit">
-  <rect width="1200" height="300" fill="#F4F0E8"/>
-  <line x1="26" y1="28" x2="1174" y2="28" stroke="#111111" stroke-width="5"/>
-  <text x="42" y="112" font-family="Impact, Arial Black, sans-serif" font-size="82" fill="#111111">MRGRAY17</text>
-  <text x="46" y="154" font-family="Georgia, serif" font-style="italic" font-size="22" fill="#111111">El Yazid Hammoubel</text>
-  <rect x="44" y="196" width="236" height="58" fill="#B6FF4A" stroke="#111111" stroke-width="4"/>
-  <text x="162" y="232" text-anchor="middle" font-family="Courier New, monospace" font-size="17" font-weight="700" fill="#111111">ALL REPOSITORIES ↗</text>
-  <text x="1146" y="232" text-anchor="end" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#111111">END / 2026</text>
-  <circle cx="1060" cy="116" r="54" fill="#7C5CFC" stroke="#111111" stroke-width="4"/>
-  <path d="M1034 116h52M1060 90v52" stroke="#F4F0E8" stroke-width="6">
-    <animateTransform attributeName="transform" type="rotate" from="0 1060 116" to="360 1060 116" dur="12s" repeatCount="indefinite"/>
-  </path>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="MrGray17 portfolio end">
+<rect width="1200" height="260" fill="#F4F0E8"/>
+<rect x="26" y="26" width="1148" height="208" fill="#F4F0E8" stroke="#111111" stroke-width="5"/>
+<text x="52" y="72" font-family="Courier New,monospace" font-size="15" font-weight="700" fill="#111111">END / 05</text>
+<text x="50" y="164" font-family="Impact,Arial Black,sans-serif" font-size="86" fill="#111111">MRGRAY17</text>
+<rect x="800" y="76" width="310" height="94" fill="#B6FF4A" stroke="#111111" stroke-width="5"/>
+<text x="955" y="133" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="24" font-weight="900" fill="#111111">REPOSITORIES ↗</text>
+<line x1="52" y1="194" x2="1110" y2="194" stroke="#111111" stroke-width="2"/>
+<text x="52" y="219" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#111111">GITHUB.COM/MRGRAY17</text>
 </svg>
