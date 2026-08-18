@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="#work"><img src="./assets/nav-work.svg" width="23.5%" alt="Work" /></a>
-  <a href="#stack"><img src="./assets/nav-stack.svg" width="23.5%" alt="Stack" /></a>
-  <a href="#arcade"><img src="./assets/nav-arcade.svg" width="23.5%" alt="Arcade" /></a>
+  <a href="https://github.com/MrGray17#work"><img src="./assets/nav-work.svg" width="23.5%" alt="Work" /></a>
+  <a href="https://github.com/MrGray17#stack"><img src="./assets/nav-stack.svg" width="23.5%" alt="Stack" /></a>
+  <a href="https://github.com/MrGray17#arcade"><img src="./assets/nav-arcade.svg" width="23.5%" alt="Arcade" /></a>
   <a href="https://github.com/MrGray17?tab=repositories"><img src="./assets/nav-repos.svg" width="23.5%" alt="All repositories" /></a>
 </p>
 
