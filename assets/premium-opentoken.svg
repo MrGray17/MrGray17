@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-label="OpenToken project scene">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#55D6FF"/>
+      <stop offset="1" stop-color="#B6FF4A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="540" fill="#111111"/>
+  <rect x="26" y="26" width="1148" height="488" fill="none" stroke="#F4F0E8" stroke-width="4"/>
+  <text x="52" y="78" font-family="Courier New, monospace" font-size="18" font-weight="700" fill="#B6FF4A">01 / AI TOOLING</text>
+  <text x="52" y="172" font-family="Impact, Arial Black, sans-serif" font-size="90" fill="#F4F0E8">OPENTOKEN</text>
+  <text x="56" y="218" font-family="Georgia, serif" font-size="24" font-style="italic" fill="#F4F0E8">Token compression for AI coding agents</text>
+
+  <text x="54" y="338" font-family="Impact, Arial Black, sans-serif" font-size="92" fill="url(#g)">2,114 → 407</text>
+  <text x="58" y="382" font-family="Courier New, monospace" font-size="18" font-weight="700" fill="#F4F0E8">EXAMPLE / 81% REDUCTION</text>
+
+  <rect x="56" y="424" width="152" height="44" fill="#F4F0E8"/>
+  <rect x="220" y="424" width="98" height="44" fill="#F4F0E8"/>
+  <rect x="330" y="424" width="92" height="44" fill="#F4F0E8"/>
+  <text x="73" y="453" font-family="Courier New, monospace" font-size="17" font-weight="700" fill="#111111">TYPESCRIPT</text>
+  <text x="249" y="453" font-family="Courier New, monospace" font-size="17" font-weight="700" fill="#111111">BUN</text>
+  <text x="357" y="453" font-family="Courier New, monospace" font-size="17" font-weight="700" fill="#111111">MCP</text>
+
+  <rect x="760" y="82" width="350" height="330" rx="26" fill="#FFFFFF" fill-opacity="0.08" stroke="#F4F0E8" stroke-width="2"/>
+  <text x="792" y="128" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#F4F0E8">PIPELINE</text>
+  <rect x="792" y="164" width="250" height="24" fill="#55D6FF">
+    <animate attributeName="width" values="250;148;250" dur="4.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="792" y="204" width="210" height="24" fill="#7C5CFC">
+    <animate attributeName="width" values="210;124;210" dur="5.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="792" y="244" width="174" height="24" fill="#FF5CA8">
+    <animate attributeName="width" values="174;103;174" dur="4.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="792" y="284" width="132" height="24" fill="#B6FF4A">
+    <animate attributeName="width" values="132;78;132" dur="5.1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="792" y="353" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#F4F0E8">431 TESTS</text>
+  <text x="930" y="353" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#F4F0E8">35 STAGES</text>
+  <text x="792" y="386" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#F4F0E8">10 COMMAND FAMILIES</text>
+
+  <text x="986" y="468" font-family="Arial, sans-serif" font-size="24" font-weight="900" fill="#B6FF4A">OPEN ↗</text>
+</svg>
