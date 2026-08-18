@@ -1,48 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="MrGray17 animated systems profile hero">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="MrGray17 animated systems hero">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#080b10"/>
-      <stop offset="1" stop-color="#0d1117"/>
-    </linearGradient>
-    <linearGradient id="scan" x1="0" x2="1">
-      <stop offset="0" stop-color="#39d353" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#39d353" stop-opacity=".95"/>
-      <stop offset="1" stop-color="#39d353" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070a0f"/><stop offset="1" stop-color="#0d1320"/></linearGradient>
+    <linearGradient id="aurora" x1="0" x2="1"><stop stop-color="#7ee787"/><stop offset=".48" stop-color="#58a6ff"/><stop offset="1" stop-color="#d2a8ff"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
+  <rect width="1200" height="420" rx="26" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="418" rx="25" fill="none" stroke="#30363d"/>
+  <g opacity=".09" stroke="#58a6ff"><path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200"/><path d="M150 0V420M300 0V420M450 0V420M600 0V420M750 0V420M900 0V420M1050 0V420"/></g>
 
-  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
-  <rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="#30363d"/>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">
+    <circle cx="54" cy="44" r="6" fill="#ff7b72"/><circle cx="76" cy="44" r="6" fill="#d29922"/><circle cx="98" cy="44" r="6" fill="#3fb950"/>
+    <text x="130" y="50" fill="#8b949e" font-size="15">~/profile/runtime</text>
+    <text x="1010" y="50" fill="#7ee787" font-size="14">● SYSTEM ONLINE</text>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-    <text x="44" y="55" fill="#8b949e" font-size="18">mrgray17@github:~$ boot-profile</text>
-    <circle cx="1088" cy="50" r="6" fill="#238636"/>
-    <text x="1105" y="56" fill="#7ee787" font-size="14">ONLINE</text>
+    <text x="55" y="104" fill="#7ee787" font-size="18">$ boot mrgray17 --mode=build</text>
+    <text x="55" y="142" fill="#8b949e" font-size="17" opacity="0">[01] backend systems .......... READY<animate attributeName="opacity" values="0;1;1" keyTimes="0;.08;1" dur="7s" repeatCount="indefinite"/></text>
+    <text x="55" y="174" fill="#8b949e" font-size="17" opacity="0">[02] distributed thinking .... LOADING<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.15;.24;1" dur="7s" repeatCount="indefinite"/></text>
+    <text x="55" y="206" fill="#8b949e" font-size="17" opacity="0">[03] AI infrastructure ....... READY<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.28;.37;1" dur="7s" repeatCount="indefinite"/></text>
+    <text x="55" y="238" fill="#8b949e" font-size="17" opacity="0">[04] shipping instinct ....... ACTIVE<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.40;.49;1" dur="7s" repeatCount="indefinite"/></text>
 
-    <text x="44" y="105" fill="#39d353" font-size="18" opacity="0">
-      &gt; initializing systems profile...
-      <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.08;1" dur="8s" repeatCount="indefinite"/>
-    </text>
-    <text x="44" y="136" fill="#58a6ff" font-size="18" opacity="0">
-      &gt; loading backend / distributed systems / AI infrastructure
-      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.16;0.24;1" dur="8s" repeatCount="indefinite"/>
-    </text>
-    <text x="44" y="167" fill="#d2a8ff" font-size="18" opacity="0">
-      &gt; scanning repositories... signal acquired
-      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.28;0.36;1" dur="8s" repeatCount="indefinite"/>
-    </text>
-
-    <text x="44" y="235" fill="#f0f6fc" font-size="46" font-weight="700">MRGRAY17</text>
-    <text x="44" y="274" fill="#8b949e" font-size="22">software engineer · systems builder · AI infrastructure</text>
-    <text x="44" y="310" fill="#7ee787" font-size="17">BUILDING &gt; BADGES   DEPTH &gt; DECORATION   SHIPPING &gt; TALKING</text>
+    <text x="55" y="310" fill="#f0f6fc" font-size="31" font-weight="700">BUILD → BREAK → UNDERSTAND → REBUILD</text>
+    <text x="55" y="347" fill="#58a6ff" font-size="16">current lane: software engineering / systems / AI tooling</text>
+    <text x="55" y="378" fill="#8b949e" font-size="15">signal over noise. evidence over vibes. shipped work over roadmap collecting.</text>
   </g>
 
-  <rect x="42" y="327" width="1116" height="2" fill="#21262d"/>
-  <rect x="42" y="327" width="220" height="2" fill="url(#scan)" filter="url(#glow)">
-    <animate attributeName="x" values="42;938;42" dur="5s" repeatCount="indefinite"/>
-  </rect>
+  <g transform="translate(935 215)">
+    <circle r="104" fill="#0b111b" stroke="#30363d" stroke-width="2"/>
+    <circle r="80" fill="none" stroke="#58a6ff" stroke-width="2" stroke-dasharray="10 8" opacity=".75"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/></circle>
+    <circle r="58" fill="none" stroke="#d2a8ff" stroke-width="2" stroke-dasharray="5 10" opacity=".7"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="9s" repeatCount="indefinite"/></circle>
+    <circle r="27" fill="#101925" stroke="#7ee787" stroke-width="2" filter="url(#glow)"/>
+    <circle cx="0" cy="-80" r="6" fill="#7ee787"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/></circle>
+    <text x="0" y="5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#f0f6fc">CORE</text>
+    <text x="0" y="130" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" fill="#8b949e">LEARN // SHIP // ITERATE</text>
+  </g>
+  <rect x="54" y="398" width="1092" height="2" fill="#21262d"/>
+  <rect x="54" y="398" width="190" height="2" fill="url(#aurora)"><animate attributeName="x" values="54;956;54" dur="5s" repeatCount="indefinite"/></rect>
 </svg>
