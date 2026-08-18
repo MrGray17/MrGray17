@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="220" viewBox="0 0 580 220" role="img" aria-label="Rate limiter project card">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a0f18"/><stop offset="1" stop-color="#101827"/></linearGradient><linearGradient id="a" x1="0" x2="1"><stop stop-color="#7ee787"/><stop offset="1" stop-color="#58a6ff"/></linearGradient></defs>
+  <rect width="580" height="220" rx="20" fill="url(#bg)"/><rect x="1" y="1" width="578" height="218" rx="19" fill="none" stroke="#30363d"/>
+  <rect x="0" y="0" width="5" height="220" rx="3" fill="url(#a)"/>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"><text x="28" y="38" fill="#7ee787" font-size="13">CURRENT BUILD // BACKEND SYSTEMS</text><text x="28" y="78" fill="#f0f6fc" font-size="29" font-weight="700">Rate Limiter</text><text x="28" y="108" fill="#8b949e" font-size="14">HTTP server + limiter logic + tests.</text><text x="28" y="135" fill="#8b949e" font-size="14">Learning state, timing, correctness and async I/O.</text><text x="28" y="176" fill="#7ee787" font-size="13">TYPESCRIPT  •  NODE.JS  •  HTTP  •  TESTING</text><text x="28" y="201" fill="#58a6ff" font-size="13">OPEN REPOSITORY  →</text></g>
+  <g transform="translate(504 34)"><rect width="48" height="48" rx="12" fill="#0d1117" stroke="#30363d"/><path d="M12 34V25M24 34V15M36 34V21" stroke="#7ee787" stroke-width="4" stroke-linecap="round"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="2s" repeatCount="indefinite"/></path></g>
+</svg>
