@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-label="Maw3id animated project scene">
-<style>@media (prefers-reduced-motion: reduce){.motion{display:none}}</style>
+<style>.still{display:none}@media (prefers-reduced-motion: reduce){.motion{display:none}.still{display:block}}</style>
 <defs>
   <linearGradient id="mapbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E9D8FF"/><stop offset="1" stop-color="#F7F2FF"/></linearGradient>
 </defs>
@@ -12,10 +12,11 @@
 <rect x="52" y="248" width="500" height="300" fill="#FF6FAE" stroke="#111111" stroke-width="5"/>
 <text x="76" y="286" font-family="Courier New,monospace" font-size="14" font-weight="700" fill="#111111">TODAY / NOW SERVING</text>
 
-<g font-family="Impact,Arial Black,sans-serif" fill="#111111">
+<text class="still" x="78" y="420" font-family="Impact,Arial Black,sans-serif" font-size="118" fill="#111111">A17</text>
+<g class="motion" font-family="Impact,Arial Black,sans-serif" fill="#111111">
   <g><text x="78" y="420" font-size="118">A17</text><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.333;0.666" dur="9s" repeatCount="indefinite" calcMode="discrete"/></g>
-  <g class="motion" opacity="0"><text x="78" y="420" font-size="118">A18</text><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.333;0.666" dur="9s" repeatCount="indefinite" calcMode="discrete"/></g>
-  <g class="motion" opacity="0"><text x="78" y="420" font-size="118">A19</text><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.333;0.666" dur="9s" repeatCount="indefinite" calcMode="discrete"/></g>
+  <g opacity="0"><text x="78" y="420" font-size="118">A18</text><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.333;0.666" dur="9s" repeatCount="indefinite" calcMode="discrete"/></g>
+  <g opacity="0"><text x="78" y="420" font-size="118">A19</text><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.333;0.666" dur="9s" repeatCount="indefinite" calcMode="discrete"/></g>
 </g>
 
 <line x1="290" y1="322" x2="290" y2="458" stroke="#111111" stroke-width="4"/>
