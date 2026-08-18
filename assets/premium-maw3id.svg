@@ -1,66 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-label="Maw3id animated project scene">
-  <defs>
-    <linearGradient id="mapbg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#E9D8FF"/>
-      <stop offset="1" stop-color="#F7F2FF"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="580" fill="#F4F0E8"/>
-  <rect x="26" y="26" width="1148" height="528" fill="none" stroke="#111111" stroke-width="6"/>
-  <text x="52" y="78" font-family="Courier New, monospace" font-size="18" font-weight="700" fill="#111111">03 / FULL STACK</text>
-  <text x="50" y="172" font-family="Impact, Arial Black, sans-serif" font-size="90" fill="#111111">MAW3ID</text>
-  <text x="54" y="216" font-family="Georgia, serif" font-size="24" font-style="italic" fill="#111111">Medical queue and appointment management</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="590" viewBox="0 0 1200 590" role="img" aria-label="Maw3id animated project scene">
+<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<defs><linearGradient id="mapbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E9D8FF"/><stop offset="1" stop-color="#F7F2FF"/></linearGradient></defs>
+<rect width="1200" height="590" fill="#F4F0E8"/>
+<rect x="26" y="26" width="1148" height="538" fill="none" stroke="#111111" stroke-width="6"/>
+<text x="52" y="76" font-family="Courier New,monospace" font-size="17" font-weight="700" fill="#111111">03 / FULL STACK</text>
+<text x="50" y="166" font-family="Impact,Arial Black,sans-serif" font-size="90" fill="#111111">MAW3ID</text>
+<text x="54" y="210" font-family="Georgia,serif" font-size="24" font-style="italic" fill="#111111">Medical queue and appointment management</text>
 
-  <rect x="52" y="260" width="508" height="236" fill="#FF6FAE" stroke="#111111" stroke-width="5"/>
-  <text x="78" y="300" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#111111">QUEUE</text>
+<rect x="52" y="252" width="500" height="250" fill="#FF6FAE" stroke="#111111" stroke-width="5"/>
+<text x="76" y="287" font-family="Courier New,monospace" font-size="14" font-weight="700" fill="#111111">TODAY / QUEUE</text>
+<g font-family="Impact,Arial Black,sans-serif" font-size="27" fill="#111111">
+  <rect x="76" y="312" width="112" height="68" fill="#F4F0E8" stroke="#111111" stroke-width="4"/>
+  <rect x="202" y="312" width="112" height="68" fill="#F4F0E8" stroke="#111111" stroke-width="4"/>
+  <rect x="328" y="312" width="112" height="68" fill="#F4F0E8" stroke="#111111" stroke-width="4"/>
+  <text x="132" y="355" text-anchor="middle">A17</text><text x="258" y="355" text-anchor="middle">A18</text><text x="384" y="355" text-anchor="middle">A19</text>
+</g>
+<rect x="76" y="404" width="364" height="42" fill="#111111"/>
+<rect x="76" y="404" width="104" height="42" fill="#B6FF4A"><animate attributeName="x" values="76;336;76" dur="6s" repeatCount="indefinite"/></rect>
+<text x="258" y="431" text-anchor="middle" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#F4F0E8">QUEUE FLOW</text>
+<text x="76" y="478" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#111111">APPOINTMENTS + WALK-INS</text>
 
-  <g font-family="Impact, Arial Black, sans-serif" font-size="28" fill="#111111">
-    <rect x="78" y="326" width="118" height="70" fill="#F4F0E8" stroke="#111111" stroke-width="4"/>
-    <rect x="210" y="326" width="118" height="70" fill="#F4F0E8" stroke="#111111" stroke-width="4"/>
-    <rect x="342" y="326" width="118" height="70" fill="#F4F0E8" stroke="#111111" stroke-width="4"/>
-    <text x="137" y="371" text-anchor="middle">A17</text>
-    <text x="269" y="371" text-anchor="middle">A18</text>
-    <text x="401" y="371" text-anchor="middle">A19</text>
-  </g>
-
-  <rect x="78" y="420" width="382" height="44" fill="#111111"/>
-  <rect x="78" y="420" width="108" height="44" fill="#B6FF4A">
-    <animate attributeName="x" values="78;352;78" dur="6s" repeatCount="indefinite"/>
-  </rect>
-  <text x="269" y="449" text-anchor="middle" font-family="Courier New, monospace" font-size="15" font-weight="700" fill="#F4F0E8">TODAY'S FLOW</text>
-
-  <rect x="606" y="260" width="516" height="236" fill="url(#mapbg)" stroke="#111111" stroke-width="5"/>
-  <text x="632" y="300" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#111111">MAP / SEARCH</text>
-  <path d="M640 336 C710 300 770 390 836 348 S960 300 1084 370" fill="none" stroke="#111111" stroke-width="3" stroke-dasharray="9 10"/>
-
-  <g>
-    <circle cx="706" cy="355" r="12" fill="#5B7FFF" stroke="#111111" stroke-width="4"/>
-    <circle cx="706" cy="355" r="25" fill="none" stroke="#5B7FFF" stroke-width="4" opacity="0.75">
-      <animate attributeName="r" values="16;36;16" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.9;0;0.9" dur="3s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-  <g>
-    <circle cx="866" cy="392" r="12" fill="#FF5CA8" stroke="#111111" stroke-width="4"/>
-    <circle cx="866" cy="392" r="25" fill="none" stroke="#FF5CA8" stroke-width="4" opacity="0.75">
-      <animate attributeName="r" values="16;34;16" dur="3.6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.9;0;0.9" dur="3.6s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-  <g>
-    <circle cx="1020" cy="342" r="12" fill="#B6FF4A" stroke="#111111" stroke-width="4"/>
-    <circle cx="1020" cy="342" r="25" fill="none" stroke="#111111" stroke-width="3" opacity="0.6">
-      <animate attributeName="r" values="16;32;16" dur="4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.8;0;0.8" dur="4s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <rect x="636" y="432" width="136" height="40" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
-  <rect x="784" y="432" width="154" height="40" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
-  <rect x="950" y="432" width="142" height="40" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
-  <text x="660" y="458" font-family="Courier New, monospace" font-size="15" font-weight="700" fill="#111111">REACT / TS</text>
-  <text x="812" y="458" font-family="Courier New, monospace" font-size="15" font-weight="700" fill="#111111">EXPRESS</text>
-  <text x="974" y="458" font-family="Courier New, monospace" font-size="15" font-weight="700" fill="#111111">POSTGRES</text>
-
-  <text x="1002" y="530" font-family="Arial, sans-serif" font-size="24" font-weight="900" fill="#111111">OPEN ↗</text>
+<rect x="604" y="252" width="518" height="250" fill="url(#mapbg)" stroke="#111111" stroke-width="5"/>
+<text x="628" y="287" font-family="Courier New,monospace" font-size="14" font-weight="700" fill="#111111">SEARCH / MAP</text>
+<path d="M636 342 C706 300 762 390 830 348 S952 300 1086 378" fill="none" stroke="#111111" stroke-width="3" stroke-dasharray="8 9"/>
+<g>
+  <circle cx="700" cy="356" r="11" fill="#5B7FFF" stroke="#111111" stroke-width="4"/><circle cx="700" cy="356" r="24" fill="none" stroke="#5B7FFF" stroke-width="4"><animate attributeName="r" values="14;34;14" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0;0.9" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="858" cy="402" r="11" fill="#FF5CA8" stroke="#111111" stroke-width="4"/><circle cx="858" cy="402" r="24" fill="none" stroke="#FF5CA8" stroke-width="4"><animate attributeName="r" values="14;32;14" dur="3.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0;0.9" dur="3.6s" repeatCount="indefinite"/></circle>
+  <circle cx="1018" cy="342" r="11" fill="#B6FF4A" stroke="#111111" stroke-width="4"/><circle cx="1018" cy="342" r="24" fill="none" stroke="#111111" stroke-width="3"><animate attributeName="r" values="14;30;14" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0;0.8" dur="4s" repeatCount="indefinite"/></circle>
+</g>
+<rect x="630" y="430" width="130" height="38" fill="#FFFFFF" stroke="#111111" stroke-width="3"/><rect x="772" y="430" width="142" height="38" fill="#FFFFFF" stroke="#111111" stroke-width="3"/><rect x="926" y="430" width="150" height="38" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+<g font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#111111"><text x="653" y="455">REACT / TS</text><text x="800" y="455">EXPRESS</text><text x="948" y="455">POSTGRES</text></g>
+<text x="1002" y="530" font-family="Arial,sans-serif" font-size="22" font-weight="900" fill="#111111">OPEN ↗</text>
+<rect x="26" y="542" width="1148" height="22" fill="#E9E2FF"/>
+<text x="1126" y="559" text-anchor="end" font-family="Courier New,monospace" font-size="12" font-weight="700" fill="#111111">NEXT / 04 ↓</text>
 </svg>
