@@ -1,9 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-label="MrGray17 engineering highlights">
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080b12"/><stop offset="1" stop-color="#101623"/></linearGradient></defs>
-  <rect width="1200" height="250" rx="24" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="248" rx="23" fill="none" stroke="#30363d"/>
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"><text x="42" y="46" fill="#f0f6fc" font-size="20" font-weight="700">SIGNAL</text>
-    <g transform="translate(42 76)"><rect width="350" height="130" rx="18" fill="#0d1117" stroke="#30363d"/><circle cx="28" cy="28" r="6" fill="#7ee787"><animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/></circle><text x="48" y="34" fill="#7ee787" font-size="14">BUILD REAL THINGS</text><text x="22" y="72" fill="#f0f6fc" font-size="19" font-weight="700">Software that has a job.</text><text x="22" y="101" fill="#8b949e" font-size="14">Not portfolio-shaped screenshots.</text></g>
-    <g transform="translate(425 76)"><rect width="350" height="130" rx="18" fill="#0d1117" stroke="#30363d"/><circle cx="28" cy="28" r="6" fill="#58a6ff"><animate attributeName="opacity" values=".35;1;.35" dur="2.4s" repeatCount="indefinite"/></circle><text x="48" y="34" fill="#58a6ff" font-size="14">UNDERSTAND THE LAYER</text><text x="22" y="72" fill="#f0f6fc" font-size="19" font-weight="700">Abstractions are earned.</text><text x="22" y="101" fill="#8b949e" font-size="14">Systems, HTTP, state, concurrency.</text></g>
-    <g transform="translate(808 76)"><rect width="350" height="130" rx="18" fill="#0d1117" stroke="#30363d"/><circle cx="28" cy="28" r="6" fill="#d2a8ff"><animate attributeName="opacity" values="1;.35;1" dur="2.8s" repeatCount="indefinite"/></circle><text x="48" y="34" fill="#d2a8ff" font-size="14">ENGINEERING JUDGMENT</text><text x="22" y="72" fill="#f0f6fc" font-size="19" font-weight="700">Hypothesis before edits.</text><text x="22" y="101" fill="#8b949e" font-size="14">Evidence before conclusions.</text></g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Engineering principles panel">
+  <rect width="1200" height="300" fill="#FFF7E6"/>
+  <text x="26" y="52" font-family="Arial Black, Arial, sans-serif" font-size="40" font-weight="900" fill="#111111">HOW I WANT TO BUILD</text>
+
+  <rect x="42" y="94" width="330" height="150" fill="#111111"/>
+  <rect x="28" y="80" width="330" height="150" fill="#FFD93D" stroke="#111111" stroke-width="5"/>
+  <text x="52" y="122" font-family="Arial Black, Arial, sans-serif" font-size="20" font-weight="900" fill="#111111">01 // FIRST PRINCIPLES</text>
+  <text x="52" y="162" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#111111">Understand the mechanism.</text>
+  <text x="52" y="190" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#111111">Not just the framework.</text>
+
+  <rect x="435" y="94" width="330" height="150" fill="#111111"/>
+  <rect x="421" y="80" width="330" height="150" fill="#8EF6D0" stroke="#111111" stroke-width="5"/>
+  <text x="445" y="122" font-family="Arial Black, Arial, sans-serif" font-size="20" font-weight="900" fill="#111111">02 // EVIDENCE</text>
+  <text x="445" y="162" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#111111">Tests, working demos,</text>
+  <text x="445" y="190" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#111111">measurable behavior.</text>
+
+  <rect x="828" y="94" width="330" height="150" fill="#111111"/>
+  <rect x="814" y="80" width="330" height="150" fill="#FF6B9A" stroke="#111111" stroke-width="5"/>
+  <text x="838" y="122" font-family="Arial Black, Arial, sans-serif" font-size="20" font-weight="900" fill="#111111">03 // SHIP</text>
+  <text x="838" y="162" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#111111">Real output beats</text>
+  <text x="838" y="190" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#111111">imaginary expertise.</text>
 </svg>
