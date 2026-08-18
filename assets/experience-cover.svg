@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="1200" height="620" fill="#FFF4E8"/>
+<rect x="28" y="28" width="1144" height="564" fill="#FFF4E8" stroke="#111" stroke-width="8"/>
+<rect x="48" y="48" width="1104" height="92" fill="#FFD84D" stroke="#111" stroke-width="6"/>
+<text x="72" y="110" font-family="Arial Black,Arial,sans-serif" font-size="40" fill="#111">EL YAZID HAMMOUBEL</text>
+<text x="62" y="320" font-family="Arial Black,Arial,sans-serif" font-size="140" fill="#111">MRGRAY17</text>
+<text x="68" y="376" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="30" fill="#111">BACKEND / SYSTEMS / AI</text>
+<rect x="70" y="430" width="230" height="92" fill="#7EE7C1" stroke="#111" stroke-width="6"/>
+<rect x="326" y="430" width="230" height="92" fill="#FF6FAE" stroke="#111" stroke-width="6"/>
+<rect x="582" y="430" width="230" height="92" fill="#5B7FFF" stroke="#111" stroke-width="6"/>
+<text x="98" y="487" font-family="Arial Black,Arial" font-size="24">BACKEND</text>
+<text x="365" y="487" font-family="Arial Black,Arial" font-size="24">SYSTEMS</text>
+<text x="653" y="487" font-family="Arial Black,Arial" font-size="24">AI</text>
+<g transform="translate(1010 470)">
+<rect x="-70" y="-70" width="140" height="140" fill="#FF9B54" stroke="#111" stroke-width="6"/>
+<path d="M0-46 L12-12 L46 0 L12 12 L0 46 L-12 12 L-46 0 L-12-12 Z" fill="#111">
+<animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+</path>
+</g>
+<rect x="42" y="42" width="1104" height="548" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="10 12"/>
+</svg>
