@@ -1,8 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="285" height="96" viewBox="0 0 285 96" role="img" aria-label="Repositories navigation">
+<style>
+.display{font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif;font-weight:900;font-stretch:condensed;letter-spacing:-1px}
+.meta{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-weight:700;letter-spacing:.45px}
+</style>
 <rect width="285" height="96" fill="#F4F0E8"/>
 <rect x="5" y="5" width="270" height="80" fill="#111111"/>
 <rect x="0" y="0" width="270" height="80" fill="#55D6FF" stroke="#111111" stroke-width="4"/>
-<text x="18" y="29" font-family="Courier New,monospace" font-size="12" font-weight="700" fill="#111111">EXTERNAL</text>
-<text x="18" y="62" font-family="Arial Black,Arial,sans-serif" font-size="23" font-weight="900" fill="#111111">ALL REPOS ↗</text>
+<text class="meta" x="18" y="29" font-size="10" fill="#111111">EXTERNAL</text>
+<text class="display" x="18" y="62" font-size="24" fill="#111111">ALL REPOS ↗</text>
 <path d="M229 28h24v24M253 28l-31 31" fill="none" stroke="#111111" stroke-width="4"/>
 </svg>
