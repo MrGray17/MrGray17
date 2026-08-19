@@ -1,17 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Portfolio route map">
-<style>
-@media (prefers-reduced-motion: reduce){.motion{display:none}}
-.display{font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif;font-weight:900;font-stretch:condensed;letter-spacing:-1.5px}
-.meta{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-weight:700;letter-spacing:.65px}
-.ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:800;letter-spacing:-.3px}
-</style>
-<rect width="1200" height="220" fill="#111111"/>
-<text class="meta" x="38" y="42" font-size="14" fill="#B6FF4A">ROUTE / 01 → 05</text>
-<line x1="70" y1="116" x2="1110" y2="116" stroke="#F4F0E8" stroke-width="3"/>
-<g fill="#F4F0E8" text-anchor="middle">
-  <circle cx="110" cy="116" r="16" fill="#B6FF4A" stroke="#F4F0E8" stroke-width="3"/><circle cx="350" cy="116" r="16" fill="#FFD84D" stroke="#F4F0E8" stroke-width="3"/><circle cx="590" cy="116" r="16" fill="#FF5CA8" stroke="#F4F0E8" stroke-width="3"/><circle cx="830" cy="116" r="16" fill="#E9E2FF" stroke="#F4F0E8" stroke-width="3"/><circle cx="1070" cy="116" r="16" fill="#55D6FF" stroke="#F4F0E8" stroke-width="3"/>
-  <g class="display" font-size="19"><text x="110" y="82">01</text><text x="350" y="82">02</text><text x="590" y="82">03</text><text x="830" y="82">04</text><text x="1070" y="82">05</text></g>
-  <g class="ui" font-size="15"><text x="110" y="166">OPENTOKEN</text><text x="350" y="166">RATE LIMITER</text><text x="590" y="166">MAW3ID</text><text x="830" y="166">STACK</text><text x="1070" y="166" font-size="12">ACTIVITY ARCADE</text></g>
-</g>
-<circle class="motion" cx="110" cy="116" r="28" fill="none" stroke="#B6FF4A" stroke-width="3" opacity="0.8"><animate attributeName="r" values="20;30;20" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0;0.8" dur="3s" repeatCount="indefinite"/></circle>
+<style>@media (prefers-reduced-motion: reduce){.motion{display:none}}.display{font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif;font-weight:900;letter-spacing:-1.5px}.meta{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-weight:700;letter-spacing:.65px}.ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:800;letter-spacing:-.3px}</style>
+<rect width="1200" height="220" fill="#111"/><text class="meta" x="38" y="42" font-size="14" fill="#B6FF4A">ROUTE / 01 → 06</text><line x1="58" y1="116" x2="1142" y2="116" stroke="#F4F0E8" stroke-width="3"/>
+<g fill="#F4F0E8" text-anchor="middle"><circle cx="80" cy="116" r="15" fill="#B6FF4A" stroke="#F4F0E8" stroke-width="3"/><circle cx="288" cy="116" r="15" fill="#FFD84D" stroke="#F4F0E8" stroke-width="3"/><circle cx="496" cy="116" r="15" fill="#FF5CA8" stroke="#F4F0E8" stroke-width="3"/><circle cx="704" cy="116" r="15" fill="#7C5CFC" stroke="#F4F0E8" stroke-width="3"/><circle cx="912" cy="116" r="15" fill="#E9E2FF" stroke="#F4F0E8" stroke-width="3"/><circle cx="1120" cy="116" r="15" fill="#55D6FF" stroke="#F4F0E8" stroke-width="3"/>
+<g class="display" font-size="19"><text x="80" y="82">01</text><text x="288" y="82">02</text><text x="496" y="82">03</text><text x="704" y="82">04</text><text x="912" y="82">05</text><text x="1120" y="82">06</text></g>
+<g class="ui" font-size="14"><text x="80" y="166">OPENTOKEN</text><text x="288" y="166">RATE LIMITER</text><text x="496" y="166">MAW3ID</text><text x="704" y="166">LAUNCHPAD</text><text x="912" y="166">STACK</text><text x="1120" y="166" font-size="11">ACTIVITY ARCADE</text></g></g>
+<circle class="motion" cx="80" cy="116" r="27" fill="none" stroke="#B6FF4A" stroke-width="3" opacity=".8"><animate attributeName="r" values="19;29;19" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0;.8" dur="3s" repeatCount="indefinite"/></circle>
 </svg>
