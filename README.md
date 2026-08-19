@@ -44,6 +44,14 @@
 </p>
 <p align="right"><a href="https://github.com/MrGray17/Maw3id"><img src="./assets/open-maw3id.svg" width="32%" alt="Open Maw3id repository" /></a></p>
 
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/MrGray17/MrGray17/main/assets/mobile-launchpad.svg" />
+    <img src="./assets/premium-launchpad.svg" width="100%" alt="Launchpad — local-first desktop project library" />
+  </picture>
+</p>
+<p align="right"><a href="https://github.com/MrGray17/Launchpad"><img src="./assets/open-launchpad.svg" width="32%" alt="Open Launchpad repository" /></a></p>
+
 <a id="stack"></a>
 <p align="center">
   <picture>
