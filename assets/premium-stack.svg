@@ -1,36 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-label="Technology map">
-<style>
-@media (prefers-reduced-motion: reduce){.motion{display:none}}
-.title{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;font-weight:900;letter-spacing:-2.6px}
-.label{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;font-weight:800;letter-spacing:.9px}
-.tech{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;font-weight:850;letter-spacing:-.5px}
-.role{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;font-weight:500;letter-spacing:.1px}
-</style>
-<defs><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.88"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.38"/></linearGradient><filter id="soft"><feGaussianBlur stdDeviation="16"/></filter></defs>
-<rect width="1200" height="620" fill="#E9E2FF"/><circle cx="1080" cy="90" r="128" fill="#55D6FF" opacity="0.54" filter="url(#soft)"/><circle cx="160" cy="540" r="144" fill="#B6FF4A" opacity="0.42" filter="url(#soft)"/><circle cx="995" cy="520" r="120" fill="#FF5CA8" opacity="0.34" filter="url(#soft)"/>
-<rect x="26" y="26" width="1148" height="568" fill="none" stroke="#111111" stroke-width="5"/>
-<text class="label" x="52" y="76" font-size="14" fill="#111111">04 / BACKSTAGE</text>
-<text class="title" x="50" y="150" font-size="66" textLength="560" lengthAdjust="spacingAndGlyphs" fill="#111111">TECHNOLOGY MAP</text>
-<text class="role" x="54" y="186" font-size="19" fill="#111111">The tools behind the projects, connected by role.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-label="Technology map">
+<style>@media (prefers-reduced-motion: reduce){.motion{display:none}}.title{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;font-weight:900;letter-spacing:-2.6px}.label{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;font-weight:800;letter-spacing:.9px}.tech{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;font-weight:850;letter-spacing:-.5px}.role{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;font-weight:500;letter-spacing:.1px}</style>
+<defs><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".88"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".38"/></linearGradient><filter id="soft"><feGaussianBlur stdDeviation="16"/></filter></defs>
+<rect width="1200" height="740" fill="#E9E2FF"/><circle cx="1080" cy="90" r="128" fill="#55D6FF" opacity=".54" filter="url(#soft)"/><circle cx="130" cy="650" r="144" fill="#B6FF4A" opacity=".38" filter="url(#soft)"/><circle cx="1015" cy="630" r="118" fill="#FF5CA8" opacity=".30" filter="url(#soft)"/>
+<rect x="26" y="26" width="1148" height="688" fill="none" stroke="#111" stroke-width="5"/><text class="label" x="52" y="76" font-size="14" fill="#111">05 / BACKSTAGE</text><text class="title" x="50" y="150" font-size="66" textLength="560" lengthAdjust="spacingAndGlyphs" fill="#111">TECHNOLOGY MAP</text><text class="role" x="54" y="186" font-size="19" fill="#111">The tools behind the projects, connected by role.</text>
 
-<text class="label" x="54" y="238" font-size="12" fill="#111111">PRODUCT PATH</text>
-<g stroke="#111111" stroke-width="4" fill="url(#glass)"><rect x="54" y="258" width="240" height="112" rx="18"/><rect x="356" y="258" width="148" height="112" rx="18"/><rect x="566" y="258" width="238" height="112" rx="18"/><rect x="866" y="258" width="258" height="112" rx="18"/></g>
-<g fill="#111111">
-  <text class="tech" x="78" y="306" font-size="22">React + Vite</text><text class="role" x="78" y="338" font-size="14">Interface · MapLibre</text>
-  <text class="tech" x="384" y="306" font-size="23">HTTP</text><text class="role" x="380" y="338" font-size="13">Request boundary</text>
-  <text class="tech" x="590" y="306" font-size="21">Node + Express</text><text class="role" x="590" y="338" font-size="14">API layer</text>
-  <text class="tech" x="890" y="306" font-size="22">PostgreSQL</text><text class="role" x="890" y="338" font-size="14">Persistence</text>
-</g>
-<path d="M294 314 H356 M504 314 H566 M804 314 H866" fill="none" stroke="#111111" stroke-width="4"/><g class="motion" fill="#FF5CA8" stroke="#111111" stroke-width="3"><circle r="9"><animateMotion dur="3.2s" repeatCount="indefinite" path="M294 314 H356"/></circle><circle r="9"><animateMotion dur="3.8s" repeatCount="indefinite" path="M504 314 H566"/></circle><circle r="9"><animateMotion dur="4.2s" repeatCount="indefinite" path="M804 314 H866"/></circle></g>
+<text class="label" x="54" y="232" font-size="12" fill="#111">WEB APP PATH</text>
+<g stroke="#111" stroke-width="4" fill="url(#glass)"><rect x="54" y="248" width="240" height="96" rx="18"/><rect x="356" y="248" width="148" height="96" rx="18"/><rect x="566" y="248" width="238" height="96" rx="18"/><rect x="866" y="248" width="258" height="96" rx="18"/></g>
+<g fill="#111"><text class="tech" x="78" y="286" font-size="21">React + Vite</text><text class="role" x="78" y="316" font-size="14">Interface · MapLibre</text><text class="tech" x="384" y="286" font-size="22">HTTP</text><text class="role" x="380" y="316" font-size="13">Request boundary</text><text class="tech" x="590" y="286" font-size="20">Node + Express</text><text class="role" x="590" y="316" font-size="14">API layer</text><text class="tech" x="890" y="286" font-size="21">PostgreSQL</text><text class="role" x="890" y="316" font-size="14">Persistence</text></g>
+<path d="M294 296H356M504 296H566M804 296H866" fill="none" stroke="#111" stroke-width="4"/><g class="motion" fill="#FF5CA8" stroke="#111" stroke-width="3"><circle r="8"><animateMotion dur="3.2s" repeatCount="indefinite" path="M294 296H356"/></circle><circle r="8"><animateMotion dur="3.8s" repeatCount="indefinite" path="M504 296H566"/></circle><circle r="8"><animateMotion dur="4.2s" repeatCount="indefinite" path="M804 296H866"/></circle></g>
 
-<text class="label" x="54" y="420" font-size="12" fill="#111111">AI TOOLING</text>
-<g stroke="#111111" stroke-width="4" fill="url(#glass)"><rect x="54" y="440" width="300" height="96" rx="18"/><rect x="428" y="440" width="220" height="96" rx="18"/><rect x="722" y="440" width="402" height="96" rx="18"/></g>
-<g fill="#111111">
-  <text class="tech" x="78" y="482" font-size="21">TypeScript + Bun</text><text class="role" x="78" y="512" font-size="14">Tooling runtime</text>
-  <text class="tech" x="494" y="482" font-size="23">MCP</text><text class="role" x="452" y="512" font-size="14">Tool interface</text>
-  <text class="tech" x="746" y="482" font-size="21">LLM context</text><text class="role" x="746" y="512" font-size="14">Model input</text>
-</g>
-<path d="M354 488 H428 M648 488 H722" fill="none" stroke="#111111" stroke-width="4"/><g class="motion" fill="#B6FF4A" stroke="#111111" stroke-width="3"><circle r="9"><animateMotion dur="3.4s" repeatCount="indefinite" path="M354 488 H428"/></circle><circle r="9"><animateMotion dur="4s" repeatCount="indefinite" path="M648 488 H722"/></circle></g>
+<text class="label" x="54" y="390" font-size="12" fill="#111">DESKTOP PATH</text>
+<g stroke="#111" stroke-width="4" fill="url(#glass)"><rect x="54" y="406" width="240" height="96" rx="18"/><rect x="356" y="406" width="148" height="96" rx="18"/><rect x="566" y="406" width="238" height="96" rx="18"/><rect x="866" y="406" width="258" height="96" rx="18"/></g>
+<g fill="#111"><text class="tech" x="78" y="444" font-size="21">React + TS</text><text class="role" x="78" y="474" font-size="14">Desktop interface</text><text class="tech" x="382" y="444" font-size="21">Tauri 2</text><text class="role" x="380" y="474" font-size="13">Native boundary</text><text class="tech" x="590" y="444" font-size="21">Rust</text><text class="role" x="590" y="474" font-size="14">Commands · inspection</text><text class="tech" x="890" y="444" font-size="21">SQLite</text><text class="role" x="890" y="474" font-size="14">Local project library</text></g>
+<path d="M294 454H356M504 454H566M804 454H866" fill="none" stroke="#111" stroke-width="4"/><g class="motion" fill="#7C5CFC" stroke="#111" stroke-width="3"><circle r="8"><animateMotion dur="3.3s" repeatCount="indefinite" path="M294 454H356"/></circle><circle r="8"><animateMotion dur="3.9s" repeatCount="indefinite" path="M504 454H566"/></circle><circle r="8"><animateMotion dur="4.4s" repeatCount="indefinite" path="M804 454H866"/></circle></g>
 
-<rect x="26" y="572" width="1148" height="22" fill="#111111"/><text class="label" x="54" y="589" font-size="10" fill="#F4F0E8">FOUNDATIONS / C++ · NETWORKING · OPERATING SYSTEMS</text><text class="label" x="1126" y="589" text-anchor="end" font-size="10" fill="#55D6FF">NEXT / 05 ↓</text>
+<text class="label" x="54" y="548" font-size="12" fill="#111">AI TOOLING</text>
+<g stroke="#111" stroke-width="4" fill="url(#glass)"><rect x="54" y="564" width="300" height="90" rx="18"/><rect x="428" y="564" width="220" height="90" rx="18"/><rect x="722" y="564" width="402" height="90" rx="18"/></g>
+<g fill="#111"><text class="tech" x="78" y="600" font-size="20">TypeScript + Bun</text><text class="role" x="78" y="630" font-size="14">Tooling runtime</text><text class="tech" x="494" y="600" font-size="22">MCP</text><text class="role" x="452" y="630" font-size="14">Tool interface</text><text class="tech" x="746" y="600" font-size="20">LLM context</text><text class="role" x="746" y="630" font-size="14">Model input</text></g>
+<path d="M354 609H428M648 609H722" fill="none" stroke="#111" stroke-width="4"/><g class="motion" fill="#B6FF4A" stroke="#111" stroke-width="3"><circle r="8"><animateMotion dur="3.4s" repeatCount="indefinite" path="M354 609H428"/></circle><circle r="8"><animateMotion dur="4s" repeatCount="indefinite" path="M648 609H722"/></circle></g>
+<rect x="26" y="692" width="1148" height="22" fill="#111"/><text class="label" x="54" y="709" font-size="10" fill="#F4F0E8">FOUNDATIONS / C++ · NETWORKING · OPERATING SYSTEMS</text><text class="label" x="1126" y="709" text-anchor="end" font-size="10" fill="#55D6FF">NEXT / 06 ↓</text>
 </svg>
