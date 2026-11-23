@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="305" viewBox="0 0 1200 305" role="img" aria-label="MIRAGE: Safety boundaries for untrusted AI coding agents">
+<style>
+.title{font-family:Arial,Helvetica,sans-serif;font-weight:800;letter-spacing:-3px}
+.body{font-family:Arial,Helvetica,sans-serif;font-weight:500}
+.mono{font-family:Consolas,Menlo,Monaco,monospace;letter-spacing:1px}
+</style>
+<defs><linearGradient id="grad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#080c16"/></linearGradient><radialGradient id="shine"><stop stop-color="#c1a5ff" stop-opacity=".24"/><stop offset="1" stop-color="#c1a5ff" stop-opacity="0"/></radialGradient><pattern id="dot" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#7890a5" opacity=".2"/></pattern></defs>
+<rect width="1200" height="305" rx="20" fill="url(#grad)"/><rect width="1200" height="305" rx="20" fill="url(#dot)"/>
+<circle cx="1080" cy="120" r="240" fill="url(#shine)"/>
+<rect x="14" y="14" width="1172" height="277" rx="15" fill="none" stroke="#c1a5ff" stroke-opacity=".46"/>
+<rect x="45" y="44" width="124" height="26" rx="13" fill="#c1a5ff" fill-opacity=".12" stroke="#c1a5ff" stroke-opacity=".55"/>
+<text class="mono" x="59" y="62" fill="#c1a5ff" font-size="12">SECURITY / SYSTEMS</text>
+<text class="title" x="43" y="157" fill="#f4f6fb" font-size="85">MIRAGE</text>
+<text class="body" x="47" y="202" fill="#bcc9dd" font-size="24">Safety boundaries for untrusted AI coding agents</text>
+<text class="mono" x="48" y="260" fill="#c1a5ff" font-size="15">GO  ·  ROOTLESS DOCKER  ·  POLICY VERIFICATION</text>
+<rect x="819" y="51" width="324" height="202" rx="14" fill="#0b1322" stroke="#51617c"/>
+<circle cx="842" cy="78" r="5" fill="#c1a5ff"/>
+<text class="mono" x="858" y="83" fill="#bdcade" font-size="12">PROJECT SIGNAL</text>
+<line x1="842" y1="101" x2="1120" y2="101" stroke="#33455b"/>
+<text class="mono" x="843" y="138" fill="#cfd9ea" font-size="14">sandbox: isolated</text>
+<text class="mono" x="843" y="176" fill="#cfd9ea" font-size="14">effects: verified</text>
+<text class="mono" x="843" y="214" fill="#cfd9ea" font-size="14">commit: authorized</text>
+<path d="M1100 265h18m-9 -9v18" stroke="#c1a5ff" stroke-width="3" stroke-linecap="round"/>
+</svg>
