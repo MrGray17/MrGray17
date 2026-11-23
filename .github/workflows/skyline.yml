@@ -1,0 +1,49 @@
+# Generated with [Pink Pixel Skyline](https://github.com/pinkpixel-dev/skyline)
+# This workflow uses the real GitHub contribution calendar, not fabricated stats.
+
+name: Skyline Contributions
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+  push:
+    paths:
+      - ".github/workflows/skyline.yml"
+      - "README.md"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: skyline-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  skyline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Go
+        uses: actions/setup-go@v7
+        with:
+          go-version: "stable"
+
+      - name: Generate contribution skyline
+        env:
+          GITHUB_TOKEN: ${{ secrets.SKYLINE_TOKEN || github.token }}
+        run: |
+          go run github.com/pinkpixel-dev/skyline@v1.0.0 -theme synthwave -svg skyline.svg "${{ github.repository_owner }}"
+          test -s skyline.svg
+
+      - name: Publish skyline to its own branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir output && mv skyline.svg output/
+          cd output
+          git init -q -b skyline-output
+          git add skyline.svg
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -qm "Update contribution skyline"
+          git push -qf "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}".git HEAD:refs/heads/skyline-output
